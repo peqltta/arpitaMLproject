@@ -38,7 +38,7 @@ recognition.onspeechend = function() {
 }
 
 recognition.addEventListener('end', function() {
-    setTimeout(() => { recognition.start(); }, 1000);
+	recognition.start();
 });
 recognition.onnomatch = function(event) {
     diagnostic.textContent = 'huh';
