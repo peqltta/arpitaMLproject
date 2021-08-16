@@ -24,7 +24,6 @@ recognition.onresult = function(event) {
 		if (xhr.readyState == XMLHttpRequest.DONE) {
 			answer = xhr.responseText;
 			$(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
-			document.querySelector('button.hidden').click();
 			speechSynthesis.speak(new SpeechSynthesisUtterance(answer));
 		}
 	}
@@ -39,7 +38,7 @@ recognition.onspeechend = function() {
 }
 
 recognition.addEventListener('end', function() {
-    setTimeout(() => { recognition.start(); }, 3500);
+    setTimeout(() => { recognition.start(); }, 1000);
 });
 recognition.onnomatch = function(event) {
     diagnostic.textContent = 'huh';

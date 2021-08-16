@@ -19,7 +19,7 @@
     <body>
         <div class="container">
 			<div class="row">
-                <h1 class="text-center"><img src="https://see.fontimg.com/api/renderfont4/MG0p/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RWR1IEJ1ZGR5/honeybeeregular.png" alt="Cute fonts"></a></h1>
+                <h1 class="text-center"><a href="https://www.fontspace.com/category/cute"></a><img src="https://see.fontimg.com/api/renderfont4/MG0p/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RWR1IEJ1ZGR5/honeybeeregular.png" alt="Cute fonts"></a></h1>
                 <div class="col-md-12">
                     <div class="panel panel-info">
                         <div class="panel-heading">
@@ -35,7 +35,6 @@
                                     <input type="text" class="form-control" placeholder="Enter Message" name="messageText" id="messageText" autofocus/>
                                     <span class="input-group-btn">
                                         <button class="btn btn-info" type="button" id="chatbot-form-btn">SEND<span class="glyphicon glyphicon-send"></span></button>
-										<button class="btn btn-info" type="button" id="chatbot-form-btn-speak">SPEAK<span class="glyphicon glyphicon-send"></span></button>
                                     </span>
                                 </div>
                             </form>
@@ -53,29 +52,7 @@
 			$("#id_botMode").change(function() {
 				
 				window.location = $("#id_botMode option:selected").val();
-			})
-			
-			
-			$('#chatbot-form-btn-speak').click(function(e) {
-                e.preventDefault();
-
-                
-                $.ajax({
-                    type: "POST",
-                    url: "/voice",
-                    data: $(this).serialize(),
-                    success: function(response) {
-                        $('#messageText').val('');
-                        var answer = response.answer;
-                        $(".media-list").append('<li class="media-list"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
-                        
-                    },
-                    error: function(error) {
-                    }
-                });
-            });
-
-			
+			})	
 		
             $('#chatbot-form-btn').click(function(e) {
                 e.preventDefault();
@@ -94,7 +71,7 @@
                     success: function(response) {
                         $('#messageText').val('');
                         var answer = response.answer;
-                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + answer + '<hr/></div></div></div></li>');
                     },
                     error: function(error) {
                     }

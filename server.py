@@ -56,8 +56,6 @@ def jarvis(data):
 @app.route("/voice", methods=['POST'])
 def voice(): 
 	data = request.data.decode()
-	print(data)
-	jarvis(data)
 	answer = kernel.respond(data)
 	return answer #jsonify({'status':'OK','answer':jarvis(data)})
 
