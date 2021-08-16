@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Edu Buddy</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <script src="/script.js"></script>
+        <style type="text/css">
+            .fixed-panel {
+                min-height: 400px;
+            }
+            .media-list {
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+			<div class="row">
+                <h1 class="text-center">Edu Buddy</h1>
+                <div class="col-md-12">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <strong><span class="glyphicon glyphicon-list"></span> Chat History</strong>
+                        </div>
+                        <div class="panel-body fixed-panel">
+                            <ul class="media-list">
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <form method="post" id="chatbot-form">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Message" name="messageText" id="messageText" autofocus/>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-info" type="button" id="chatbot-form-btn">SEND<span class="glyphicon glyphicon-send"></span></button>
+										<button class="btn btn-info" type="button" id="chatbot-form-btn-speak">SPEAK<span class="glyphicon glyphicon-send"></span></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+        $(function() {
+		
+			$("#id_botMode").change(function() {
+				
+				window.location = $("#id_botMode option:selected").val();
+			})
+			
+			
+			$('#chatbot-form-btn-speak').click(function(e) {
+                e.preventDefault();
+
+                
+                $.ajax({
+                    type: "POST",
+                    url: "/voice",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#messageText').val('');
+                        var answer = response.answer;
+                        $(".media-list").append('<li class="media-list"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
+                        
+                    },
+                    error: function(error) {
+                    }
+                });
+            });
+
+			
+		
+            $('#chatbot-form-btn').click(function(e) {
+                e.preventDefault();
+                $('#chatbot-form').submit();
+            });
+
+            $('#chatbot-form').submit(function(e) {
+                e.preventDefault();
+
+                var message = $('#messageText').val();
+                $(".media-list").append('<li class="media-list"><div class="media-body"><div class="media-list"><div class="media-body">' + message + '<hr/></div></div></div></li>');
+                $.ajax({
+                    type: "POST",
+                    url: "/ask",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#messageText').val('');
+                        var answer = response.answer;
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
+                    },
+                    error: function(error) {
+                    }
+                });
+            });
+
+        });
+        </script>
+        <button class="hidden" style="position:absolute;left:-9999;"></button>
+    </body>
+</html>

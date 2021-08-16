@@ -1,0 +1,84 @@
+<xml>
+<aiml>
+	<category>
+		<pattern>HELLO</pattern>
+		
+		<template>
+			Hello there, are you a Teacher or a Student?
+		</template>
+	</category>
+	<category>
+		<pattern>HI</pattern>
+		
+		<template>
+			Hi there, are you a Teacher or a Student?
+		</template>
+		
+	</category>
+	<category>
+		<pattern>HEY</pattern>
+		
+		<template>
+			Hey there, are you a Teacher or a Student?
+		</template>
+		
+	</category>
+	<category>
+		<pattern>BONJOUR</pattern>
+		
+		<template>
+			Sorry I only speak English at this time.
+		</template>
+		
+	</category>
+	<category>
+		<pattern>HOLA</pattern>
+		
+		<template>
+			Sorry I only speak English at this time.
+		</template>
+	</category>
+	<category>
+		<pattern>TEACHER</pattern>
+		
+		<template>
+			Teacher files loaded
+		<think>
+		<learn>./aiml/additional/teacher/teacher.aiml</learn>
+		</think>
+		</template>
+		
+	</category>
+	<category>
+		<pattern>STUDENT</pattern>
+		
+		<template>
+			Student files loaded
+		<think>
+		<learn>./aiml/additional/student/student.aiml</learn>
+		</think>
+		</template>
+		
+	</category>
+	<category>
+		<pattern>TEST</pattern>
+		
+		<template>
+			Test Message
+		</template>
+		
+	</category>
+	<category>
+		<pattern>RELOAD AIML</pattern>
+		<template>
+			Okay.
+		<think>
+		<learn>./aiml/*.aiml</learn>
+		<learn>./aiml/additional/*.aiml</learn>
+		<learn>./aiml/standard/*.aiml</learn>
+		</think>
+		</template>
+	</category>
+	
+</aiml>
+</xml>

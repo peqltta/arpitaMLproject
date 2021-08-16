@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+<think>
+<learn>aiml/additional/main.aiml</learn>
+<learn>./aiml/*.aiml</learn>
+<learn>./aiml/additional/*.aiml</learn>
+<learn>./aiml/standard/*.aiml</learn>
+</think>
+</template>
+</category>
+</aiml>
