@@ -64,7 +64,7 @@ def jarvis(data):
 def voice():
     global allcommands
     data = request.data.decode()
-    allcommands = allcommands.join(' '+data)
+    allcommands = allcommands+' '+data
     sentiment = str(sid.polarity_scores(data))
     answer = kernel.respond(data) + '#' +sentiment
     return answer #jsonify({'status':'OK','answer':jarvis(data)})
@@ -78,11 +78,13 @@ def wordcloud():
 	wordcloud = WordCloud(stopwords=STOPWORDS,background_color='black',max_words=300)
 	wordcloud.generate(allcommands)
 	wordcloud.to_file("static/wordcloud.png")
-	return html('<img src="wordcloud.png">')
+	return render_template('wordcloud.html')
 
 @app.route("/ask", methods=['POST'])
 def ask():
+	global allcommands
 	message = str(request.form['messageText'])
+	allcommands += allcommands + ' ' + message
 	# kernel now ready for use
 	while True:
 		if message == "quit":
