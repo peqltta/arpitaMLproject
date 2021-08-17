@@ -22,25 +22,33 @@ recognition.onresult = function(event) {
 	var xhr = new XMLHttpRequest(); //make xhr
 	xhr.onreadystatechange = function() {
 		if (xhr.readyState == XMLHttpRequest.DONE) {
-			answer = xhr.responseText;
+			response = xhr.responseText;
+			const responses = response.split("#");
+			answer = responses[0]
+			$(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + responses[1] + '<hr/></div></div></div></li>');
 			$(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
 			speechSynthesis.speak(new SpeechSynthesisUtterance(answer));
+			var objDiv = document.getElementById("messagecontainer");
+			objDiv.scrollTop = objDiv.scrollHeight;
 		}
 	}
 	xhr.open('POST', url, true);
 	xhr.setRequestHeader('Content-Type', 'x-www-form-urlencoded');
 	xhr.send(voicecommand);
     console.log(voicecommand)
-    console.log('Confidence: ' + event.results[0][0].confidence);
+    var confidencelevel = 'Speech Accuracy Confidence: ' + event.results[0][0].confidence;
+	confidencelevel
+	$(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + confidencelevel + '<hr/></div></div></div></li>');
+	var objDiv = document.getElementById("messagecontainer");
+	objDiv.scrollTop = objDiv.scrollHeight;
 }
 recognition.onspeechend = function() {
-    recognition.stop();
+	recognition.stop();
 }
-
-recognition.addEventListener('end', function() {
+recognition.onend = function() {
 	recognition.start();
-});
+}
 recognition.onnomatch = function(event) {
-    diagnostic.textContent = 'huh';
+diagnostic.textContent = 'huh';
 }
 recognition.start();

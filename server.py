@@ -1,17 +1,24 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask import Flask, render_template, request, jsonify, send_from_directory, url_for
 from aiml import Kernel
 import os
-
+import numpy as np
+import pandas as pd
+import html
+import sys
 import speech_recognition as sr
 import pyttsx3
+from PIL import Image
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
+from wordcloud import WordCloud, STOPWORDS
+import matplotlib.pyplot as plt
 import nltk
 nltk.download("punkt")
 nltk.download("vader_lexicon")
 sid = SentimentIntensityAnalyzer()
 app = Flask(__name__, static_url_path='', static_folder='static', template_folder='templates')
-
+allcommands = 'hello'
 kernel = Kernel()
 
 if os.path.isfile("bot_brain.brn"):
@@ -46,7 +53,7 @@ def recordAudio():
 	except sr.RequestError as e:
 		print("Could not request results from Google Speech Recognition service; {0}".format(e))
 	print('Sentiment Score (For later use - NLP)')
-	print(sid.polarity_scores(voicecommand))
+	
 	return voicecommand
 	
 def jarvis(data):
@@ -54,14 +61,24 @@ def jarvis(data):
 	return s
 
 @app.route("/voice", methods=['POST'])
-def voice(): 
-	data = request.data.decode()
-	answer = kernel.respond(data)
-	return answer #jsonify({'status':'OK','answer':jarvis(data)})
+def voice():
+    global allcommands
+    data = request.data.decode()
+    allcommands = allcommands.join(' '+data)
+    sentiment = str(sid.polarity_scores(data))
+    answer = kernel.respond(data) + '#' +sentiment
+    return answer #jsonify({'status':'OK','answer':jarvis(data)})
 
 @app.route("/")
 def hello():
 	return render_template('chat.html')
+
+@app.route("/wordcloud", methods=['POST'])
+def wordcloud():
+	wordcloud = WordCloud(stopwords=STOPWORDS,background_color='black',max_words=300)
+	wordcloud.generate(allcommands)
+	wordcloud.to_file("static/wordcloud.png")
+	return html('<img src="wordcloud.png">')
 
 @app.route("/ask", methods=['POST'])
 def ask():

@@ -5,3 +5,8 @@ margin: 0;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+fixed-panel{
+    overflow-y:scroll;
+    height: 70vw;
+    max-height: 600px;
+}

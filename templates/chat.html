@@ -10,9 +10,12 @@
         <style type="text/css">
             .fixed-panel {
                 min-height: 400px;
+                max-height: 400px;
+                height: 400px;
+                overflow-y:scroll;
             }
             .media-list {
-                overflow: auto;
+                max-height: 375px;
             }
         </style>
     </head>
@@ -21,11 +24,11 @@
 			<div class="row">
                 <h1 class="text-center"><a href="https://www.fontspace.com/category/cute"></a><img src="https://see.fontimg.com/api/renderfont4/MG0p/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/RWR1IEJ1ZGR5/honeybeeregular.png" alt="Cute fonts"></a></h1>
                 <div class="col-md-12">
-                    <div class="panel panel-info">
+                    <div class="panel panel-info" style="overflow-anchor:none;">
                         <div class="panel-heading">
                             <strong><span class="glyphicon glyphicon-list"></span> Chat History</strong>
                         </div>
-                        <div class="panel-body fixed-panel">
+                        <div class="panel-body fixed-panel" id="messagecontainer">
                             <ul class="media-list">
                             </ul>
                         </div>
@@ -37,13 +40,15 @@
                                         <button class="btn btn-info" type="button" id="chatbot-form-btn">SEND<span class="glyphicon glyphicon-send"></span></button>
                                     </span>
                                 </div>
+                            </form>                    
+                            <form action="/wordcloud" method="post" style="display:flex; flex-direction:row-reverse; justify-content:flex-start; margin-top:5px;"> 
+                                <button class="btn btn-info" type="submit" id="wordcloudbtn" style="max-width:150px;">WORD CLOUD</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>
@@ -64,6 +69,8 @@
 
                 var message = $('#messageText').val();
                 $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + message + '<hr/></div></div></div></li>');
+                var objDiv = document.getElementById("messagecontainer");
+                objDiv.scrollTop = objDiv.scrollHeight;
                 $.ajax({
                     type: "POST",
                     url: "/ask",
@@ -72,6 +79,8 @@
                         $('#messageText').val('');
                         var answer = response.answer;
                         $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
+                        var objDiv = document.getElementById("messagecontainer");
+                        objDiv.scrollTop = objDiv.scrollHeight;
                     },
                     error: function(error) {
                     }
