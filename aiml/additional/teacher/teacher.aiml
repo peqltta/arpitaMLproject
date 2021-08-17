@@ -1,4 +1,5 @@
-<!-- TEACHER STARTS -->
+<xml version="1.0" encoding="UTF-8">
+<aiml>
 <category>
     <pattern>TEACHER</pattern>
     <template>
@@ -9,15 +10,14 @@
         </reply>
     </template>
 </category>
-<category>
-    <pattern>LESSONPLAN</pattern>
-    <template>
+<category><pattern>LESSONPLAN</pattern>
+<template>
+	<button>
         WHICH GROUP OF STUDENT?
-        <button>
        <text>KINDERGARTEN</text>
        <postback>KINDERGARTENLS</postback>
-   </button>
-   <button>
+</button>  
+ <button>
        <text>STANDARD 1</text>
        <postback>STANDARD1LS</postback>
    </button>
@@ -1217,8 +1217,6 @@ Once students have completed the graphic organizer with as much detail as possib
 <!-- STANDARD 3 ENDS-->
 <!-- STANDARD 4 STARTS -->
 <category>
-    <pattern>STANDARD4LS</pattern>
-    <template>
         <pattern>AP4</pattern>
         <template>
             4th Grade English Language Lesson Plans
@@ -1920,3 +1918,4 @@ Once students have completed the graphic organizer with as much detail as possib
 
 
 </aiml>
+</xml>
