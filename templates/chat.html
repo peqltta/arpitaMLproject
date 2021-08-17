@@ -63,7 +63,7 @@
                 e.preventDefault();
 
                 var message = $('#messageText').val();
-                $(".media-list").append('<li class="media-list"><div class="media-body"><div class="media-list"><div class="media-body">' + message + '<hr/></div></div></div></li>');
+                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + message + '<hr/></div></div></div></li>');
                 $.ajax({
                     type: "POST",
                     url: "/ask",
@@ -71,7 +71,7 @@
                     success: function(response) {
                         $('#messageText').val('');
                         var answer = response.answer;
-                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + answer + '<hr/></div></div></div></li>');
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div //class="media-body">' + answer + '<hr/></div></div></div></li>');
                     },
                     error: function(error) {
                     }
