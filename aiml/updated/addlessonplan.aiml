@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category><pattern>ADD LESSON PLAN *</pattern><template>Please give the title for the lesson plan</template><think><srai>ADDLESSONPLAN1</srai></think></template></category>
+<category><pattern>*</pattern><that>Please give the title for the lesson plan</that><template><think><set name = "lesson-plan-title"><star/></set></think>Title: <get name = "lesson-plan-title"></get><think><srai>ADDQUESTION1</srai></think></template></category>
+<category><pattern>ADDQUESTION1</pattern><template>adding question</template></category>
+</aiml>
+</xml>

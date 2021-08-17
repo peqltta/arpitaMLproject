@@ -74,8 +74,8 @@
 			Okay.
 		<think>
 		<learn>./aiml/*.aiml</learn>
-		<learn>./aiml/additional/*.aiml</learn>
 		<learn>./aiml/standard/*.aiml</learn>
+		<learn>./aiml/updated/*.aiml</learn>
 		</think>
 		</template>
 	</category>
