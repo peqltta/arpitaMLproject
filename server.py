@@ -72,7 +72,7 @@ def voice():
 		sentiment = str(sid.polarity_scores(data))
 		ansresponse = kernel.respond(data)
 		if ansresponse != '':
-			answer = anresponse + '#' + sentiment
+			answer = ansresponse + '#' + sentiment
 			return answer #jsonify({'status':'OK','answer':jarvis(data)})
 
 @app.route("/")
