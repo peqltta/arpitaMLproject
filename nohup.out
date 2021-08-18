@@ -1,0 +1,123 @@
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+Loading ./aiml/additional/main.aiml...done (0.00 seconds)
+Loading ./aiml/standard/20q.aiml...done (0.00 seconds)
+Loading ./aiml/standard/battledome.aiml...done (0.01 seconds)
+Loading ./aiml/standard/binary.aiml...done (0.01 seconds)
+Loading ./aiml/standard/blackjack.aiml...done (0.03 seconds)
+Loading ./aiml/standard/bornin.aiml...done (0.03 seconds)
+Loading ./aiml/standard/botcompare.aiml...done (0.04 seconds)
+Loading ./aiml/standard/calendar.aiml...done (0.00 seconds)
+Loading ./aiml/standard/chatbots32.aiml...done (0.00 seconds)
+Loading ./aiml/standard/copyme.aiml...done (0.00 seconds)
+Loading ./aiml/standard/currency.aiml...done (0.01 seconds)
+Loading ./aiml/standard/daystoxmas.aiml...done (0.00 seconds)
+Loading ./aiml/standard/drphil.aiml...done (0.01 seconds)
+Loading ./aiml/standard/gender.aiml...done (0.17 seconds)
+Loading ./aiml/standard/hangman.aiml...done (0.02 seconds)
+Loading ./aiml/standard/happy.aiml...done (0.00 seconds)
+Loading ./aiml/standard/highroller.aiml...done (0.05 seconds)
+Loading ./aiml/standard/horoscope.aiml...done (0.00 seconds)
+Loading ./aiml/standard/howmany.aiml...done (0.00 seconds)
+Loading ./aiml/standard/jokes.aiml...done (0.00 seconds)
+Loading ./aiml/standard/knockknock.aiml...done (0.00 seconds)
+Loading ./aiml/standard/learn.aiml...done (0.01 seconds)
+Loading ./aiml/standard/limericks.aiml...done (0.00 seconds)
+Loading ./aiml/standard/luckyslots.aiml...done (0.02 seconds)
+Loading ./aiml/standard/maths.aiml...done (0.00 seconds)
+Loading ./aiml/standard/numberdrop.aiml...done (0.01 seconds)
+Loading ./aiml/standard/numberones.aiml...done (0.12 seconds)
+Loading ./aiml/standard/onthisday.aiml...done (0.02 seconds)
+Loading ./aiml/standard/poker.aiml...done (0.03 seconds)
+Loading ./aiml/standard/quizfacts.aiml...done (0.01 seconds)
+Loading ./aiml/standard/seasons.aiml...done (0.00 seconds)
+Loading ./aiml/standard/shutup.aiml...done (0.00 seconds)
+Loading ./aiml/standard/tictactoe.aiml...done (0.02 seconds)
+Loading ./aiml/standard/warnings.aiml...done (0.00 seconds)
+Loading ./aiml/standard/whatday_eng.aiml...done (0.05 seconds)
+Loading ./aiml/standard/whatday_usa.aiml...done (0.05 seconds)
+Loading ./aiml/standard/wordplay.aiml...done (0.02 seconds)
+Loading ./aiml/standard/yomama.aiml...done (0.00 seconds)
+Loading ./aiml/standard/zbert.aiml...done (0.00 seconds)
+Loading ./aiml/updated/addlessonplan.aiml...
+Kernel bootstrap completed in 0.76 seconds
+Saving brain to bot_brain.brn...done (0.02 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+PARSE ERROR: Unexpected <category> tag (line 119, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 129, column 1)
+PARSE ERROR: Unexpected </template> tag (line 132, column 1)
+PARSE ERROR: Unexpected </category> tag (line 133, column 1)
+PARSE ERROR: Unexpected <category> tag (line 148, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 158, column 1)
+PARSE ERROR: Unexpected </template> tag (line 159, column 1)
+PARSE ERROR: Unexpected </category> tag (line 160, column 1)
+PARSE ERROR: Unexpected <category> tag (line 170, column 0)
+PARSE ERROR: Unexpected </learn> tag (line 180, column 0)
+PARSE ERROR: Unexpected </think> tag (line 182, column 0)
+PARSE ERROR: Unexpected </template> tag (line 184, column 0)
+PARSE ERROR: Unexpected </category> tag (line 185, column 0)
+PARSE ERROR: Unexpected <category> tag (line 196, column 0)
+PARSE ERROR: Unexpected </learn> tag (line 206, column 0)
+PARSE ERROR: Unexpected </think> tag (line 208, column 0)
+PARSE ERROR: Unexpected </template> tag (line 210, column 0)
+PARSE ERROR: Unexpected </category> tag (line 211, column 0)
+PARSE ERROR: Unexpected <category> tag (line 222, column 0)
+PARSE ERROR: Unexpected </learn> tag (line 233, column 0)
+PARSE ERROR: Unexpected </think> tag (line 235, column 0)
+PARSE ERROR: Unexpected </template> tag (line 237, column 0)
+PARSE ERROR: Unexpected </category> tag (line 238, column 0)
+PARSE ERROR: Unexpected <category> tag (line 249, column 0)
+PARSE ERROR: Unexpected </learn> tag (line 259, column 0)
+PARSE ERROR: Unexpected </think> tag (line 261, column 0)
+PARSE ERROR: Unexpected </template> tag (line 263, column 0)
+PARSE ERROR: Unexpected </category> tag (line 264, column 0)
+PARSE ERROR: Unexpected <category> tag (line 172, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 180, column 3)
+PARSE ERROR: Unexpected </template> tag (line 192, column 1)
+PARSE ERROR: Unexpected </category> tag (line 193, column 0)
+PARSE ERROR: Unexpected <category> tag (line 200, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 208, column 3)
+PARSE ERROR: Unexpected </template> tag (line 210, column 1)
+PARSE ERROR: Unexpected </category> tag (line 211, column 0)
+PARSE ERROR: Unexpected <category> tag (line 218, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 226, column 3)
+PARSE ERROR: Unexpected </template> tag (line 238, column 1)
+PARSE ERROR: Unexpected </category> tag (line 239, column 0)
+
+FATAL PARSE ERROR in file ./aiml/updated/addlessonplan.aiml:
+./aiml/updated/addlessonplan.aiml:3:152: mismatched tag
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "server.py", line 99, in <module>
+    app.run(host='192.168.0.11', port=5000)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib64/python3.7/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.7/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.7/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 99] Cannot assign requested address

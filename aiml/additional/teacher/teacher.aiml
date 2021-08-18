@@ -3,87 +3,95 @@
 <category>
     <pattern>TEACHER</pattern>
     <template>
-        HOW MAY I HELP YOU?
-        <reply>
-            <text>LESSON PLAN</text>
-            <postback>LESSONPLAN</postback>
-        </reply>
+        How may I help you?
     </template>
 </category>
-<category><pattern>LESSONPLAN</pattern>
+<category><pattern>LESSON PLAN</pattern>
 <template>
-	<button>
-        WHICH GROUP OF STUDENT?
-       <text>KINDERGARTEN</text>
-       <postback>KINDERGARTENLS</postback>
-</button>  
- <button>
-       <text>STANDARD 1</text>
-       <postback>STANDARD1LS</postback>
-   </button>
-   <button>
-       <text>STANDARD 2</text>
-       <postback>STANDARD2LS</postback>
-   </button>
-   <button>
-       <text>STANDARD 3</text>
-       <postback>STANDARD3LS</postback>
-   </button>
-   <button>
-       <text>STANDARD 4</text>
-       <postback>STANDARD4LS</postback>
-   </button>
-   <button>
-       <text>STANDARD 5</text>
-       <postback>STANDARD5LS</postback>
-   </button>
-    </template>
+WHICH GROUP OF STUDENT?
+</template>
 </category>
 <category>
-    <pattern>KINDERGARTENLS</pattern>
-    <template>
-        Kindergarten English Language Lesson Plans
-         <button>
-             <text>Beginning Sound Match</text>
-             <postback>BSM</postback>
-         </button>
-         <button>
-             <text>Fairy Tale</text>
-             <postback>FT</postback>
-         </button>
-         <button>
-             <text>How to Take Care of Our Oceans</text>
-             <postback>HTTC</postback>
-         </button>
-         <button>
-             <text>Learning About Adjectives</text>
-             <postback>LAA</postback>
-         </button>
-         <button>
-             <text>Rainbow Fish</text>
-             <postback>RF</postback>
-         </button>
-         <button>
-             <text>Rhyme Time</text>
-             <postback>RT</postback>
-         </button>
-         <button>
-             <text>Rhyming Words</text>
-             <postback>RW</postback>
-         </button>
-         <button>
-             <text>Story Sequencing</text>
-             <postback>SS</postback>
-         </button>
-         <button>
-             <text>Tearing Into Vocabulary</text>
-             <postback>TIV</postback>
-         </button>
-         <button>
-             <text>What is a Verb?</text>
-             <postback>VERB</postback>
-         </button>
-    </template>
+<pattern>*</pattern>
+<that>WHICH GROUP OF STUDENT?</that><template>
+<think><set name="group-name"><star/></set></think>
+Group :<get name="group-name"></get>
+</template>
+</category>
+<category>
+       <pattern>STANDARD 1</pattern>
+      <template><srai>STANDARD1LS</srai></template>
+</category>
+ <category>
+<pattern>STANDARD 2</pattern>
+<template><srai>STANDARD2LS</srai></template>
+</category>
+<category>
+<pattern>STANDARD 3</pattern>
+<template><srai>STANDARD3LS</srai></template>
+</category>
+<category>
+<pattern>STANDARD 4</pattern>
+<template><srai>STANDARD4LS</srai></template>
+</category>
+<category>
+<pattern>STANDARD 5</pattern>
+<template><srai>STANDARD5LS</srai></template>
+</category>
+<category>
+<pattern>KINDERGARTEN</pattern>
+<template><srai>KINDERGARTENLS</srai></template>
+</category>
+<category>
+<pattern>KINDERGARTENLS</pattern>
+<template>Kindergarten English Language Lesson Plans<br />
+Beginning Sound Match<br />
+Fairy Tale<br />
+How to take care of our oceans<br />
+Learning about adjectives<br />
+Rainbow Fish<br />
+Rhyme Time<br />
+Rhyming words<br />
+Story sequencing<br />
+Tearing Into Vocabulary<br />
+What is a verb<br />
+</template>
+</category>
+<category>
+<pattern>FAIRY TALE</pattern>
+<template><srai>FT</srai></template>
+</category>
+<category>
+<pattern>How to Take Care of Our Oceans</pattern>
+<template><srai>HTTC</srai></template>
+</category>
+<category>
+<pattern>Learning About Adjectives</pattern>
+<template><srai>LAA</srai></template>
+</category>
+<category>
+<pattern>Rainbow Fish</pattern>
+<template><srai>RF</srai></template>
+</category>
+<category>
+<pattern>Rhyme Time</pattern>
+<template><srai>RT</srai></template>
+</category>
+<category>
+<pattern>Rhyming Words</pattern>
+<template><srai>RW</srai></template>
+</category>
+<category>
+<pattern>Story Sequencing</pattern>
+<template><srai>SS</srai></template>
+</category>
+<category>
+<pattern>Tearing Into Vocabulary</pattern>
+<template><srai>TIV</srai></template>
+</category>
+<category>
+<pattern>What is a Verb?</pattern>
+<template><srai>VERB</srai></template>
 </category>
 <category>
     <pattern>BSM</pattern>

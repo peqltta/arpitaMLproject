@@ -68,6 +68,34 @@
 		</template>
 		
 	</category>
+
+	<category>
+		<pattern>ALICE</pattern>
+		<template>
+		Lets talk to Alice.
+		<think>
+		<learn>./aiml/additional/alice/*</learn>
+		</think>
+		</template>
+	</category>
+	<category>
+		<pattern>ELIZA</pattern>
+		<template>
+		Lets talk to Eliza.
+		<think>
+		<learn>./aiml/additional/alice/*</learn>
+		</think>
+		</template>
+	</category>
+	<category>
+		<pattern>ROSIE</pattern>
+		<template>
+		Lets talk to Rosie.
+		<think>
+		<learn>./aiml/additional/alice/*</learn>
+		</think>
+		</template>
+	</category>
 	<category>
 		<pattern>RELOAD AIML</pattern>
 		<template>

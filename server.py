@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory, url_for
+from flask import Flask, render_template, request, redirect, jsonify, send_from_directory, url_for
 from aiml import Kernel
 import os
 import numpy as np
@@ -18,7 +18,7 @@ nltk.download("punkt")
 nltk.download("vader_lexicon")
 sid = SentimentIntensityAnalyzer()
 app = Flask(__name__, static_url_path='', static_folder='static', template_folder='templates')
-allcommands = 'hello'
+allcommands = 'love'
 kernel = Kernel()
 
 if os.path.isfile("bot_brain.brn"):
@@ -62,16 +62,29 @@ def jarvis(data):
 
 @app.route("/voice", methods=['POST'])
 def voice():
-    global allcommands
-    data = request.data.decode()
-    allcommands = allcommands+' '+data
-    sentiment = str(sid.polarity_scores(data))
-    answer = kernel.respond(data) + '#' +sentiment
-    return answer #jsonify({'status':'OK','answer':jarvis(data)})
+	global allcommands
+	data = request.data.decode()
+	if data != '':
+		try:
+			allcommands = allcommands+' '+data
+		except:
+			pass
+		sentiment = str(sid.polarity_scores(data))
+		ansresponse = kernel.respond(data)
+		if ansresponse != '':
+			answer = anresponse + '#' + sentiment
+			return answer #jsonify({'status':'OK','answer':jarvis(data)})
 
 @app.route("/")
 def hello():
 	return render_template('chat.html')
+
+@app.route("/restart")
+def restart():
+	os.remove("bot_brain.brn")
+	kernel.bootstrap(learnFiles = os.path.abspath("aiml/std-startup.xml"), commands = "load aiml b")
+	kernel.saveBrain("bot_brain.brn")
+	return redirect('/')
 
 @app.route("/wordcloud", methods=['POST'])
 def wordcloud():
@@ -84,9 +97,12 @@ def wordcloud():
 def ask():
 	global allcommands
 	message = str(request.form['messageText'])
-	allcommands += allcommands + ' ' + message
-	# kernel now ready for use
-	while True:
+	try:
+		allcommands += allcommands + ' ' + message
+	except:
+		pass
+# kernel now ready for use
+	if message != '':
 		if message == "quit":
 			exit()
 		elif message == "save":
@@ -94,7 +110,10 @@ def ask():
 		else:
 			bot_response = kernel.respond(message)
 			# print bot_response
-			return jsonify({'status':'OK','answer':bot_response})
+			if bot_response != '':
+				return jsonify({'status':'OK','answer':bot_response})
+			else:
+				return ('', 204)
 
 if __name__ == "__main__":
 	app.run()

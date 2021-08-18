@@ -116,16 +116,10 @@ Replace xxxxx and yyyyy with your own variables.
  <pattern>BOTCOMPARISON</pattern>
  <template>
  <learn>
-	<category>
-	 <pattern>
 	 <eval><uppercase>BOTCHECK <get name="comparevalue1"/></uppercase></eval>
-	 </pattern>
-	 <template>
 		<think>
 		 <set name="match">YES</set>
 		</think>
-	 </template>
-	</category>
  </learn> 
 	<srai>botcheck <get name="comparevalue2"/></srai>
 	<srai>botremovecomparison</srai>
@@ -145,16 +139,10 @@ Replace xxxxx and yyyyy with your own variables.
  <pattern>BOTREMOVECOMPARISON</pattern>
  <template>
  <learn>
-	<category>
-	 <pattern>
 	 <eval><uppercase>BOTCHECK <get name="comparevalue1"/></uppercase></eval>
-	 </pattern>
-	 <template>
 		<think>
 		 <set name="match">NO</set>
 		</think>
-	 </template>
-	</category>
  </learn> 
  </template>
  </category>
@@ -176,8 +164,7 @@ Replace xxxxx and yyyyy with your own variables.
 
 <category>
 <pattern>BOTCOMPARE *</pattern>
-<template>
-BOTCOMPARE failed as only one item was passed to compare.<br/>
+<template>BOTCOMPARE failed as only one item was passed to compare.<br/>
 Usage: BOTCOMPARE&lt;get name="xxxxx"/&gt;&lt;get name="yyyyy"/&gt;<br/><br/>
 Replace xxxxx and yyyyy with your own variables.
 <think>

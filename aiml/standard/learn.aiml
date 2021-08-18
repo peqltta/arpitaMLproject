@@ -169,24 +169,12 @@
  <template>
 
    <learn>
-	<category>
-	 <pattern>
 	  <eval><uppercase> <star index="1"/> <star index="3"/> </uppercase></eval>
-	 </pattern>
-	 <template>
 	  <eval> <star index="2"/> </eval>
-	 </template>
-	</category>
    </learn>
    <learn>
-	<category>
-	 <pattern>
 	  <eval><uppercase> <star index="1"/> <star index="2"/> </uppercase></eval>
-	 </pattern>
-	 <template>
 	  <eval> <star index="3"/> </eval>
-	 </template>
-	</category>
    </learn>
 
  </template>
@@ -197,17 +185,10 @@
  <template>
 
    <learn>
-	<category>
-	 <pattern>
 	  <eval><uppercase> <star index="1"/> <star index="2"/> <star index="3"/> </uppercase></eval>
-	 </pattern>
-	 <template>
 	  <eval> <star index="4"/> </eval>
-	 </template>
-	</category>
    </learn>
-
- </template>
+</template>
 </category>
 
 <category>
@@ -215,24 +196,12 @@
  <template>
 
    <learn>
-	<category>
-	 <pattern>
 	  <eval><uppercase> <star index="1"/> </uppercase></eval>
-	 </pattern>
-	 <template>
 	  <eval><srai> <star index="2"/> </srai></eval>
-	 </template>
-	</category>
    </learn>
    <learn>
-	<category>
-	 <pattern>
 	  <eval>DO YOU SPEAK<uppercase> <star index="3"/> </uppercase></eval>
-	 </pattern>
-	 <template>
 	  <eval>I was taught that <star index="1"/> means <star index="2"/> in <star index="3"/> .</eval>
-	 </template>
-	</category>
    </learn>
 
  </template>

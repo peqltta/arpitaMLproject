@@ -165,20 +165,14 @@
 <template>
 <think>
 <set name="searchfor"><star/></set>
-
-<learn>	
-<category>	 
-<pattern>XCHECKMATCH</pattern>	 
-<template>
+<learn>
+<srai>XCHECKCOMPARE</srai>	 
 <srai>BOTCOMPARE <get name="legs"/> XSPLIT <get name="searchfor"/></srai>
 <condition name="match">
 <li value="YES"><set name="list"><get name="list"/><br/>
 <get name="animal"/></set></li>
 </condition>	 
-</template>	
-</category> 
 </learn>
-
 </think>
 <srai>XSCANANIMALDATABASE</srai>
 </template>
@@ -191,18 +185,13 @@
 <template>
 <think>
 <set name="searchfor"><star/> <star index="2"/></set>
-
-<learn>	
-<category>	 
-<pattern>XCHECKMATCH</pattern>	 
-<template>
+<learn>		 
+<srai>XCHECKMATCH</srai>	 
 <srai>BOTCOMPARE <get name="lives"/> <get name="says"/> XSPLIT <get name="searchfor"/></srai>
 <condition name="match">
 <li value="YES"><set name="list"><get name="list"/><br/>
 <get name="animal"/></set></li>
-</condition>	 
-</template>	
-</category> 
+</condition>	
 </learn>
 
 </think>
@@ -218,18 +207,14 @@
 <think>
 <set name="searchfor"><star/></set>
 
-<learn>	
-<category>	 
-<pattern>XCHECKMATCH</pattern>	 
-<template>
+<learn>	 
+<srai>XCHECKMATCH</srai>	 
 <srai>BOTCOMPARE <get name="eats"/> XSPLIT <get name="searchfor"/></srai>
 <condition name="match">
 <li value="YES"><set name="list"><get name="list"/><br/>
 A <get name="animal"/> eats <get name="eats"/> and has <get name="legs"/> legs.
 </set></li>
-</condition>	 
-</template>	
-</category> 
+</condition>	  
 </learn>
 
 </think>
@@ -245,17 +230,13 @@ A <get name="animal"/> eats <get name="eats"/> and has <get name="legs"/> legs.
 <think>
 <set name="searchfor"><star/></set>
 
-<learn>	
-<category>	 
-<pattern>XCHECKMATCH</pattern>	 
-<template>
+<learn>		 
+<srai>XCHECKMATCH</srai>	 
 <srai>BOTCOMPARE <get name="says"/> XSPLIT <get name="searchfor"/></srai>
 <condition name="match">
 <li value="YES"><set name="list"><get name="list"/><br/>
 <get name="animal"/></set></li>
-</condition>	 
-</template>	
-</category> 
+</condition>	  
 </learn>
 
 </think>

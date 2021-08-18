@@ -1,0 +1,3035 @@
+<xml version="1.0" encoding="UTF-8">
+<aiml>
+<!--Student STARTS-->
+<category>
+    <pattern>STUDENT</pattern>
+    <template>
+        WHAT IS YOUR NAME?
+    </template>
+</category>
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>
+<think><set name="firstname"><star /></set>
+        HOW MAY I HELP YOU? <get name="firstname"></get>
+        <reply>
+            <text>PRACTICE</text>
+            <postback>PRACTICESELECTED</postback>
+        </reply>
+    </template>
+</category>
+<category>
+    <pattern>PRACTICE</pattern>
+    <template>
+        HOW MAY I HELP YOU?
+        <reply>
+            <text>PRACTICE</text>
+            <postback>PRACTICESELECTED</postback>
+        </reply>
+    </template>
+</category>
+<category>
+    <pattern>PRACTICESELECTED</pattern>
+    <template>
+        WHICH GROUP OF STUDENT?
+   <button>
+       <text>KINDERGARTEN</text>
+       <postback>TOPIC</postback>
+   </button>
+   <button>
+       <text>STANDARD 1</text>
+       <postback>STANDARD1</postback>
+   </button>
+   <button>
+       <text>STANDARD 2</text>
+       <postback>STANDARD2</postback>
+   </button>
+   <button>
+       <text>STANDARD 3</text>
+       <postback>STANDARD3</postback>
+   </button>
+   <button>
+       <text>STANDARD 4</text>
+       <postback>STANDARD4</postback>
+   </button>
+   <button>
+       <text>STANDARD 5</text>
+       <postback>STANDARD5</postback>
+   </button>
+    </template>
+</category>
+<category>
+    <pattern>TOPIC</pattern>
+    <template>
+        <card>
+            <title>Which topic?</title>
+            <button>
+                <text>A, An, Some or One</text>
+                <postback>KINDERGARTENQUIZ</postback>
+            </button>
+            <button>
+                <text>Singular or Plural?</text>
+                <postback>KINDERGARTENQUIZ1</postback>
+            </button>
+            <button>
+                <text>That and What</text>
+                <postback>KINDERGARTENQUIZ2</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>KINDERGARTENQUIZ</pattern>
+    <template>
+        A, An, Some or One<break/>
+        Q1 - There's ____ money in my wallet.
+            <button>
+                <text>a</text>
+                <postback>Q2</postback>
+            </button>
+            <button>
+                <text>some</text>
+                <postback>Q2</postback>
+            </button>
+            <button>
+                <text>one</text>
+                <postback>Q2</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>Q2</pattern>
+    <template>
+        Q2 - A puppy is ____ baby dog.
+            <button>
+                <text>A</text>
+                <postback>Q3</postback>
+            </button>
+            <button>
+                <text>An</text>
+                <postback>Q3</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>Q3</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>Q3</pattern>
+    <template>
+        Q3 - ____ of the members succeeded.
+            <button>
+                <text>A</text>
+                <postback>Q4</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>Q4</postback>
+            </button>
+            <button>
+                <text>An</text>
+                <postback>Q4</postback>
+            </button>
+       
+    </template>
+</category>
+<category>
+    <pattern>Q4</pattern>
+    <template>
+        Q4 - It cost ____ hundred dollars.
+            <button>
+                <text>A</text>
+                <postback>Q5</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>Q5</postback>
+            </button>
+            <button>
+                <text>Either could be used.</text>
+                <postback>Q5</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>Q5</pattern>
+    <template>
+       Q5 - She's ____ European politician.
+            <button>
+                <text>A</text>
+                <postback>Q6</postback>
+            </button>
+            <button>
+                <text>An</text>
+                <postback>Q6</postback>
+            </button>
+            <button>
+                <text>Either could be used.</text>
+                <postback>Q6</postback>
+            </button>
+        
+    </template>
+</category>
+<category>
+    <pattern>Q6</pattern>
+    <template>
+        Q6 - We bought ____ prawns.
+            <button>
+                <text>A</text>
+                <postback>Q7</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>Q7</postback>
+            </button>
+            <button>
+                <text>Some</text>
+                <postback>Q7</postback>
+            </button>
+       
+    </template>
+</category>
+<category>
+    <pattern>Q7</pattern>
+    <template>
+        Q7 - Could you lend me ____ money?
+            <button>
+                <text>A</text>
+                <postback>Q8</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>Q8</postback>
+            </button>
+            <button>
+                <text>Some</text>
+                <postback>Q8</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>Q8</pattern>
+    <template>
+        Q8 - There's only ____ person in the team who could help.
+            <button>
+                <text>A</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>One</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>Either could be used.</text>
+                <postback>THANKS</postback>
+            </button>
+        
+    </template>
+</category>
+<category>
+    <pattern>THANKS</pattern>
+    <template>THANK YOU</template>
+</category>
+<!-- SINGULAR AND PLURAL START-->
+<category>
+    <pattern>KINDERGARTENQUIZ1</pattern>
+    <template>
+        Singular or Plural?
+        <card>
+            <title>Q1 - Glasses</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION2</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION2</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION2</pattern>
+    <template>
+        <card>
+            <title>Q2 - News</title>
+            <button>
+                <text>Countable - singular</text>
+                <postback>QUESTION3</postback>
+            </button>
+            <button>
+                <text>Countable - plural</text>
+                <postback>QUESTION3</postback>
+            </button>
+            <button>
+                <text>Uncountable</text>
+                <postback>QUESTION3</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION3</pattern>
+    <template>
+        <card>
+            <title>Q3 - Scissors</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION4</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION4</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION4</pattern>
+    <template>
+        <card>
+            <title>Q4 - Police</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION5</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION5</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION5</pattern>
+    <template>
+        <card>
+            <title>Q5 - Oxen</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION6</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION6</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION6</pattern>
+    <template>
+        <card>
+            <title>Q6 - Criterion</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION7</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION7</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION7</pattern>
+    <template>
+        <card>
+            <title>Q7 - Criteria</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION8</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION8</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION8</pattern>
+    <template>
+        <card>
+            <title>Q8 - People</title>
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION9</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION9</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION9</pattern>
+    <template>
+        <card>
+            <title>Q9 - We use 'amount' with...</title>
+            <button>
+                <text>Countable- singular</text>
+                <postback>QUESTION10</postback>
+            </button>
+            <button>
+                <text>Countable- plural</text>
+                <postback>QUESTION10</postback>
+            </button>
+            <button>
+                <text>Uncountable</text>
+                <postback>QUESTION10</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>QUESTION10</pattern>
+    <template>
+        Q10 - 'A number of' is followed by a _____ verb.
+            <button>
+                <text>SINGULAR</text>
+                <postback>QUESTION11</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>QUESTION11</postback>
+            </button>
+        
+    </template>
+</category>
+<category>
+    <pattern>QUESTION11</pattern>
+    <template>
+        Q11 - 'The number of' is followed by a _____ verb.
+            <button>
+                <text>SINGULAR</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>PLURAL</text>
+                <postback>THANKS</postback>
+            </button>
+        
+    </template>
+</category>
+<!--SINGULAR AND PLURAL ENDS-->
+<!-- THAT AND WHAT STARTS-->
+<category>
+    <pattern>KINDERGARTENQUIZ2</pattern>
+    <template>
+        THAT AND WHAT<break/>
+        Q1 - Anything ____ she says is bound to be rubbish.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST2</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST2</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST2</pattern>
+    <template>
+      Q2 - ____ they did next came as a surprise to us all.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST3</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST3</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST3</pattern>
+    <template>
+        Q3 - I liked the first part, but everything else ____ they did was dreadful.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST4</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST4</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST4</pattern>
+    <template>
+       Q4 - I was amazed by the things ____ we heard.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST5</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST5</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST5</pattern>
+    <template>
+        Q5 - Everything ____ happened was new to me.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST6</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST6</postback>
+            </button>
+    </template>
+</category>
+
+<category>
+    <pattern>QUEST6</pattern>
+    <template>
+       Q6 - Some things ____ occurred were predictable.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST7</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST7</postback>
+            </button>
+    </template>
+</category>
+
+<category>
+    <pattern>QUEST7</pattern>
+    <template>
+        Q7 - They'll tell you anything ____ they think you want to hear.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST8</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST8</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST8</pattern>
+    <template>
+       Q8 - No one was expecting ____ came next.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST9</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST9</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST9</pattern>
+    <template>
+        Q9 - It's ____ I had hoped for.
+            <button>
+                <text>THAT</text>
+                <postback>QUEST10</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>QUEST10</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>QUEST10</pattern>
+    <template>
+        Q10 - It's just ____ I was looking for.
+            <button>
+                <text>THAT</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>WHAT</text>
+                <postback>THANKS</postback>
+            </button>
+    </template>
+</category>
+<!--THAT ANS WHAT ENDS-->
+
+<!-- STANDARD 1 STARTS-->
+
+<category>
+    <pattern>STANDARD1</pattern>
+    <template>
+        WHAT TOPIC?
+    <button>
+        <text>Consonants AND Vowels</text>
+        <postback>CVQ</postback>
+    </button>
+    <button>
+        <text>No AND Not</text>
+        <postback>NN</postback>
+    </button>
+    <button>
+        <text>Comparatives</text>
+        <postback>COMPARATIVES</postback>
+    </button>
+    </template>
+</category>
+<!--  Consonants & Vowels STARTS-->
+<category>
+    <pattern>CVQ</pattern>
+    <template>
+        Consonants AND Vowels
+        <card>
+            <title>Q1 - A</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ2</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ2</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ2</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ2</pattern>
+    <template>
+        <card>
+            <title>Q2 - B</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ3</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ3</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ3</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ3</pattern>
+    <template>
+        <card>
+            <title>Q3 - C</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ4</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ4</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ4</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ4</pattern>
+    <template>
+        <card>
+            <title>Q4 - D</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ5</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ5</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ5</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ5</pattern>
+    <template>
+        <card>
+            <title>Q5 - E</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ6</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ6</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ6</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ6</pattern>
+    <template>
+        <card>
+            <title>Q6 - F</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ7</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ7</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ7</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ7</pattern>
+    <template>
+        <card>
+            <title>Q7 - G</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ8</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ8</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ8</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ8</pattern>
+    <template>
+        <card>
+            <title>Q8 - H</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ9</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ9</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ9</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ9</pattern>
+    <template>
+        <card>
+            <title>Q9 - I</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ10</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ10</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ10</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ10</pattern>
+    <template>
+        <card>
+            <title>Q10 - J</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ11</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ11</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ11</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ11</pattern>
+    <template>
+        <card>
+            <title>Q11 - K</title>
+            <button>
+                <text>Consonant</text>
+                <postback>CVQ12</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>CVQ12</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>CVQ12</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>CVQ12</pattern>
+    <template>
+        <card>
+            <title>Q12 - L</title>
+            <button>
+                <text>Consonant</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>Vowel</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>It depends</text>
+                <postback>THANKS</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<!--  Consonants & Vowels ENDS-->
+
+
+<!-- NO & NOT STARTS-->
+<category>
+    <pattern>NN</pattern>
+    <template>
+        NO AND NOT<break/>
+        Q1 - ____ students finished the test.
+        <button>
+            <text>NO</text>
+            <postback>NN2</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN2</pattern>
+    <template>
+        Q2 - I'm free today, but ____ on Friday.
+        <button>
+            <text>NO</text>
+            <postback>NN3</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN3</pattern>
+    <template>
+        Q3 - I wrote to her, but got ____ reply.
+        <button>
+            <text>NO</text>
+            <postback>NN4</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN4</pattern>
+    <template>
+        Q4 - Most complained about the result, but ____ the winners.
+        <button>
+            <text>NO</text>
+            <postback>NN5</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN5</pattern>
+    <template>
+       Q5 - This is a ____ smoking area.
+        <button>
+            <text>NO</text>
+            <postback>NN6</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN6</pattern>
+    <template>
+       Q6 - It came as ____ surprise to hear that they had won.
+        <button>
+            <text>NO</text>
+            <postback>NN7</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN7</pattern>
+    <template>
+       Q7 - ____ surprisingly, the concert sold out in a few hours.
+        <button>
+            <text>NO</text>
+            <postback>NN8</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN8</pattern>
+    <template>
+       Q8 - There was ____ a lot we could do to help.
+        <button>
+            <text>NO</text>
+            <postback>NN9</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN9</pattern>
+    <template>
+       Q9 - There's ____ enough space for everything.
+        <button>
+            <text>NO</text>
+            <postback>NN10</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>NN10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>NN10</pattern>
+    <template>
+       Q10 - There was ____ room on the train.
+        <button>
+            <text>NO</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>NOT</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- NO & NOT ENDS-->
+
+
+<!-- Comparatives STARTS-->
+<category>
+    <pattern>COMPARATIVES</pattern>
+    <template>
+        COMPARATIVES<break/>
+        Q1 - It's ____ than mine.
+        <button>
+            <text>smaller</text>
+            <postback>COMPARATIVES2</postback>
+        </button>
+        <button>
+            <text>more small</text>
+            <postback>COMPARATIVES2</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES2</pattern>
+    <template>
+        Q2 - Yours is ____ than mine.
+        <button>
+            <text>biger</text>
+            <postback>COMPARATIVES3</postback>
+        </button>
+        <button>
+            <text>bigger</text>
+            <postback>COMPARATIVES3</postback>
+        </button>
+        <button>
+            <text>more big</text>
+            <postback>COMPARATIVES3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES3</pattern>
+    <template>
+        Q3 - It's ____ than you think.
+        <button>
+            <text>commoner</text>
+            <postback>COMPARATIVES4</postback>
+        </button>
+        <button>
+            <text>more common</text>
+            <postback>COMPARATIVES4</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES4</pattern>
+    <template>
+        Q4 - It cost ____ than I thought.
+        <button>
+            <text>less</text>
+            <postback>COMPARATIVES5</postback>
+        </button>
+        <button>
+            <text>fewer</text>
+            <postback>COMPARATIVES5</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES5</pattern>
+    <template>
+        Q5 - He's ____ than he looks.
+        <button>
+            <text>cleverer</text>
+            <postback>COMPARATIVES6</postback>
+        </button>
+        <button>
+            <text>more clever</text>
+            <postback>COMPARATIVES6</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES6</pattern>
+    <template>
+        Q6 - The road is ____ than the motorway.
+        <button>
+            <text>narrower</text>
+            <postback>COMPARATIVES7</postback>
+        </button>
+        <button>
+            <text>more narrow</text>
+            <postback>COMPARATIVES7</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES7</pattern>
+    <template>
+       Q7 - She talks ____ than I do.
+        <button>
+            <text>quicker</text>
+            <postback>COMPARATIVES8</postback>
+        </button>
+        <button>
+            <text>more quickly</text>
+            <postback>COMPARATIVES8</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>COMPARATIVES8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES8</pattern>
+    <template>
+      Q8 - It's ____ than it looks.
+        <button>
+            <text>badder</text>
+            <postback>COMPARATIVES9</postback>
+        </button>
+        <button>
+            <text>worse</text>
+            <postback>COMPARATIVES9</postback>
+        </button>
+        <button>
+            <text>bader</text>
+            <postback>COMPARATIVES9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES9</pattern>
+    <template>
+      Q9 - It's ____ than it was.
+        <button>
+            <text>beter</text>
+            <postback>COMPARATIVES10</postback>
+        </button>
+        <button>
+            <text>better</text>
+            <postback>COMPARATIVES10</postback>
+        </button>
+        <button>
+            <text>gooder</text>
+            <postback>COMPARATIVES10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>COMPARATIVES9</pattern>
+    <template>
+      Q10 - It was ____ than I thought it would be.
+        <button>
+            <text>quicker</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>more quick</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>Either could be used here.</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Comparatives ENDS -->
+<!--STANDARD 1 ENDS-->
+
+<!-- STANDARD 2 STARTS-->
+<category>
+    <pattern>STANDARD2</pattern>
+    <template>
+        WHAT TOPIC?
+        <button>
+            <text>Yesterday, Today AND Tomorrow STARTS</text>
+            <postback>YTT1</postback>
+        </button>
+        <button>
+            <text>Few AND Little</text>
+            <postback>FL1</postback>
+        </button>
+        <button>
+            <text>Adjectives- positive AMD negative</text>
+            <postback>APN1</postback>
+        </button>
+    </template>
+</category>
+<!-- Yesterday, Today AND Tomorrow STARTS-->
+<category>
+    <pattern>YTT1</pattern>
+    <template>
+        Yesterday, Today AND Tomorrow<break/>
+        Q1 - I did it ____.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT2</postback>
+        </button>
+        <button>
+            <text>tomorrow</text>
+            <postback>YTT2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT2</pattern>
+    <template>
+        Q2 - I ____ there today.
+        <button>
+            <text>GO</text>
+            <postback>YTT3</postback>
+        </button>
+        <button>
+            <text>AM GOING</text>
+            <postback>YTT3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT3</pattern>
+    <template>
+        Q3 - My plane leaves ____.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT4</postback>
+        </button>
+        <button>
+            <text>tomorrow</text>
+            <postback>YTT4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT4</pattern>
+    <template>
+        Q4 - I haven't seen her ____.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT5</postback>
+        </button>
+        <button>
+            <text>today</text>
+            <postback>YTT5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT5</pattern>
+    <template>
+        Q5 - I haven't seen her since ____.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT6</postback>
+        </button>
+        <button>
+            <text>today</text>
+            <postback>YTT6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT6</pattern>
+    <template>
+        Q6 - I saw them ____ morning.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT7</postback>
+        </button>
+        <button>
+            <text>in yesterday</text>
+            <postback>YTT7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT7</pattern>
+    <template>
+        Q7 - I'll do it first thing ____.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT8</postback>
+        </button>
+        <button>
+            <text>today</text>
+            <postback>YTT8</postback>
+        </button>
+        <button>
+            <text>tomorrow</text>
+            <postback>YTT8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT8</pattern>
+    <template>
+        Q8 - I'm going there ____ night.
+        <button>
+            <text>tomorrow</text>
+            <postback>YTT9</postback>
+        </button>
+        <button>
+            <text>at tomorrow</text>
+            <postback>YTT9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT9</pattern>
+    <template>
+        Q9 - I could do it ____ if you like.
+        <button>
+            <text>yesterday</text>
+            <postback>YTT10</postback>
+        </button>
+        <button>
+            <text>tomorrow</text>
+            <postback>YTT10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>YTT10</pattern>
+    <template>
+        Q10 - ____ is her birthday; she'll be fifteen.
+        <button>
+            <text>today</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>tomorrow</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Yesterday, Today AND Tomorrow ENDS -->
+<!-- Few & Little STARTS-->
+<category>
+    <pattern>FL1</pattern>
+    <template>
+        Q1 - I have a ____ friends.
+        <button>
+            <text>few</text>
+            <postback>FL2</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL2</pattern>
+    <template>
+       Q2 - He has very ____ patience with me.
+        <button>
+            <text>few</text>
+            <postback>FL3</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL3</pattern>
+    <template>
+       Q3 - There's only a ____ sugar left.
+        <button>
+            <text>few</text>
+            <postback>FL4</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL4</pattern>
+    <template>
+      Q4 - I've done it a ____ times.
+        <button>
+            <text>few</text>
+            <postback>FL5</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL5</pattern>
+    <template>
+      Q5 - I saw a ____ films at the weekend.
+        <button>
+            <text>few</text>
+            <postback>FL6</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL6</pattern>
+    <template>
+      Q6 - I've got very ____ spare time.
+        <button>
+            <text>few</text>
+            <postback>FL7</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL7</pattern>
+    <template>
+      Q7 - I've only read a _____ of the book so far- just the first couple of chapters.
+        <button>
+            <text>few</text>
+            <postback>FL8</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL8</pattern>
+    <template>
+      Q8 - I'd only like a ____ milk in my tea please.
+        <button>
+            <text>few</text>
+            <postback>FL9</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL9</pattern>
+    <template>
+     Q9 - Only a _____ tickets were sold for the concert.
+        <button>
+            <text>few</text>
+            <postback>FL10</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>FL10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>FL10</pattern>
+    <template>
+     Q10 - I'd like a ____ more chicken, please.
+        <button>
+            <text>few</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>little</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Few & Little ENDS -->
+
+<!-- Adjectives- positive & negative STARTS-->
+<category>
+    <pattern>APN1</pattern>
+    <template>
+        <card>
+            <title>Q1 - Generous</title>
+            <button>
+                <text>positive</text>
+                <postback>APN2</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN2</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN2</pattern>
+    <template>
+        <card>
+            <title>Q2 - Mean</title>
+            <button>
+                <text>positive</text>
+                <postback>APN3</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN3</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN3</pattern>
+    <template>
+        <card>
+            <title>Q3 - Calm</title>
+            <button>
+                <text>positive</text>
+                <postback>APN4</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN4</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN4</pattern>
+    <template>
+        <card>
+            <title>Q4 - Harmful</title>
+            <button>
+                <text>positive</text>
+                <postback>APN5</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN5</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN5</pattern>
+    <template>
+        <card>
+            <title>Q5 - Harmless</title>
+            <button>
+                <text>positive</text>
+                <postback>APN6</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN6</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN6</pattern>
+    <template>
+        <card>
+            <title>Q6 - Wise</title>
+            <button>
+                <text>positive</text>
+                <postback>APN7</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN7</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN7</pattern>
+    <template>
+        <card>
+            <title>Q7 - Stupid</title>
+            <button>
+                <text>positive</text>
+                <postback>APN8</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN8</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN8</pattern>
+    <template>
+        <card>
+            <title>Q8 - Foolish</title>
+            <button>
+                <text>positive</text>
+                <postback>APN9</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN9</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN9</pattern>
+    <template>
+        <card>
+            <title>Q9 - Ugly</title>
+            <button>
+                <text>positive</text>
+                <postback>APN10</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>APN10</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<category>
+    <pattern>APN10</pattern>
+    <template>
+        <card>
+            <title>Q10 - Unkind</title>
+            <button>
+                <text>positive</text>
+                <postback>THANKS</postback>
+            </button>
+            <button>
+                <text>negative</text>
+                <postback>THANKS</postback>
+            </button>
+        </card>
+    </template>
+</category>
+<!-- Adjectives- positive & negative ENDS -->
+
+<!-- STANDARD 2 ENDS -->
+
+<!-- STANDARD 3 STARTS-->
+<category>
+    <pattern>STANDARD3</pattern>
+    <template>
+        WHAT TOPIC?
+        <button>
+            <text>Ever AND Never</text>
+            <postback>EN1</postback>
+        </button>
+        <button>
+            <text>Mine AND My</text>
+            <postback>MM1</postback>
+        </button>
+        <button>
+            <text>Some AND Some of</text>
+            <postback>SSO1</postback>
+        </button>
+    </template>
+</category>
+<!-- Ever AND Never STARTS-->
+<category>
+    <pattern>EN1</pattern>
+    <template>
+        Q1 - I've ____ seen her do that.
+        <button>
+            <text>EVER</text>
+            <postback>EN2</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN2</pattern>
+    <template>
+        Q2 - I've had trouble ____ since I bought it.
+        <button>
+            <text>EVER</text>
+            <postback>EN3</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN3</pattern>
+    <template>
+        Q3 - I am surprised that you have _____ done it before.
+        <button>
+            <text>EVER</text>
+            <postback>EN4</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN4</pattern>
+    <template>
+        Q4 - Have you ____ tried it?
+        <button>
+            <text>EVER</text>
+            <postback>EN5</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN5</postback>
+        </button>
+        <button>
+            <text>Either could be used.</text>
+            <postback>EN5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN5</pattern>
+    <template>
+        Q5 - Haven't you ____ been there?
+        <button>
+            <text>EVER</text>
+            <postback>EN6</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN6</postback>
+        </button>
+        <button>
+            <text>Either could be used.</text>
+            <postback>EN6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN6</pattern>
+    <template>
+        'Ever' and 'never' are adjectives.
+        <button>
+            <text>TRUE</text>
+            <postback>EN7</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>EN7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN7</pattern>
+    <template>
+        Q7 - It's ____ been this bad before.
+        <button>
+            <text>EVER</text>
+            <postback>EN8</postback>
+        </button>
+        <button>
+            <text>NEVER</text>
+            <postback>EN8</postback>
+        </button>
+        <button>
+            <text>Either could be used.</text>
+            <postback>EN8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN8</pattern>
+    <template>
+        Q8 - 'Ever' and 'never' are adverbs.
+        <button>
+            <text>TRUE</text>
+            <postback>EN9</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>EN9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN9</pattern>
+    <template>
+        Q9 - You cannot use 'ever' with the present simple.
+        <button>
+            <text>TRUE</text>
+            <postback>EN10</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>EN10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>EN10</pattern>
+    <template>
+        Q10 - You can only use 'never' with the present perfect.
+        <button>
+            <text>TRUE</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Ever AND Never ENDS -->
+<!-- Mine & My STARTS-->
+<category>
+    <pattern>MM1</pattern>
+    <template>
+        Q1 - That's ____ place.
+        <button>
+            <text>MINE</text>
+            <postback>MM2</postback>
+        </button>
+        <button>
+            <text>MY</text>
+            <postback>MM2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM2</pattern>
+    <template>
+       Q2 - Did ____ friends arrive on time?
+        <button>
+            <text>yours</text>
+            <postback>MM3</postback>
+        </button>
+        <button>
+            <text>your</text>
+            <postback>MM3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM3</pattern>
+    <template>
+        Q3 - We had the time of ____ lives.
+        <button>
+            <text>ours</text>
+            <postback>MM4</postback>
+        </button>
+        <button>
+            <text>our</text>
+            <postback>MM4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM4</pattern>
+    <template>
+        Q4 - That's ____.
+        <button>
+            <text>MINE</text>
+            <postback>MM5</postback>
+        </button>
+        <button>
+            <text>MY</text>
+            <postback>MM5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM5</pattern>
+    <template>
+        Q5 - Have you seen ____ things?
+        <button>
+            <text>theirs</text>
+            <postback>MM6</postback>
+        </button>
+        <button>
+            <text>their</text>
+            <postback>MM6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM6</pattern>
+    <template>
+        Q6 - The cat drank ____ milk.
+        <button>
+            <text>it's</text>
+            <postback>MM7</postback>
+        </button>
+        <button>
+            <text>its</text>
+            <postback>MM7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM7</pattern>
+    <template>
+        Q7 - She's a friend of ____.
+        <button>
+            <text>ours</text>
+            <postback>MM8</postback>
+        </button>
+        <button>
+            <text>our</text>
+            <postback>MM8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM8</pattern>
+    <template>
+        Q8 - I did it on ____ own.
+        <button>
+            <text>MINE</text>
+            <postback>MM9</postback>
+        </button>
+        <button>
+            <text>MY</text>
+            <postback>MM9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM9</pattern>
+    <template>
+        Q9 - Is this ____?
+        <button>
+            <text>your</text>
+            <postback>MM10</postback>
+        </button>
+        <button>
+            <text>yours</text>
+            <postback>MM10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>MM10</pattern>
+    <template>
+        Q10 - Are these ____?
+        <button>
+            <text>yours</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>your</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Mine & My ENDS -->
+<!-- Some & Some of STARTS-->
+<category>
+    <pattern>SSO1</pattern>
+    <template>
+        Q1 - ____ people were interested.
+        <button>
+            <text>some</text>
+            <postback>SSO2</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO2</pattern>
+    <template>
+        Q2 - I spoke to ____ the people who saw the accident, but not everyone.
+        <button>
+            <text>some</text>
+            <postback>SSO3</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO3</pattern>
+    <template>
+        Q3 - Take ____ the buses that come along.
+        <button>
+            <text>any</text>
+            <postback>SSO4</postback>
+        </button>
+        <button>
+            <text>any of</text>
+            <postback>SSO4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO4</pattern>
+    <template>
+        Q4 - Use ____ computer.
+        <button>
+            <text>any</text>
+            <postback>SSO5</postback>
+        </button>
+        <button>
+            <text>any of</text>
+            <postback>SSO5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO5</pattern>
+    <template>
+        Q5 - ____ the computers in the resource room were broken.
+        <button>
+            <text>some</text>
+            <postback>SSO6</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO6</pattern>
+    <template>
+        Q6 - When the class had finished, ____ students stayed behind.
+        <button>
+            <text>some</text>
+            <postback>SSO7</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO7</pattern>
+    <template>
+        Q7 - I don't mind- I'll take ____ them.
+        <button>
+            <text>any</text>
+            <postback>SSO8</postback>
+        </button>
+        <button>
+            <text>any of</text>
+            <postback>SSO8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO8</pattern>
+    <template>
+       Q8 - I spent ____ the money you gave me.
+        <button>
+            <text>some</text>
+            <postback>SSO9</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO9</pattern>
+    <template>
+        Q9 - ____ them enjoyed it, but others thought it was boring.
+        <button>
+            <text>some</text>
+            <postback>SSO10</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>SSO10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>SSO10</pattern>
+    <template>
+       Q10 - I drank ____ it.
+        <button>
+            <text>some</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>some of</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Some & Some of ENDS -->
+<!-- STANDARD 3 ENDS -->
+<!-- STANDARD 4 STARTS-->
+<category>
+    <pattern>STANDARD4</pattern>
+    <template>
+        WHAT TOPIC?
+        <button>
+            <text>Parts of Speech</text>
+            <postback>POS1</postback>
+        </button>
+        <button>
+            <text>In, On AND At</text>
+            <postback>IOA1</postback>
+        </button>
+        <button>
+            <text>How</text>
+            <postback>H1</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS1</pattern>
+    <template>
+        Q1 - 'Quickly' is an adjective.
+        <button>
+            <text>TRUE</text>
+            <postback>POS2</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS2</pattern>
+    <template>
+        Q2 - 'Gone' is a past participle.
+        <button>
+            <text>TRUE</text>
+            <postback>POS3</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS3</pattern>
+    <template>
+        Q3 - 'She' is a pronoun.
+        <button>
+            <text>TRUE</text>
+            <postback>POS4</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS4</pattern>
+    <template>
+        Q4 - 'Funny' is an adjective.
+        <button>
+            <text>TRUE</text>
+            <postback>POS5</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS5</pattern>
+    <template>
+        Q5 - 'Sometimes' is a noun.
+        <button>
+            <text>TRUE</text>
+            <postback>POS6</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS6</pattern>
+    <template>
+        Q6 - 'The' is an indefinite article.
+        <button>
+            <text>TRUE</text>
+            <postback>POS7</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS7</pattern>
+    <template>
+       Q7 - 'But' is a conjunction.
+        <button>
+            <text>TRUE</text>
+            <postback>POS8</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS8</pattern>
+    <template>
+        Q8 - 'Friendly' is an adjective.
+        <button>
+            <text>TRUE</text>
+            <postback>POS9</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS9</pattern>
+    <template>
+        Q9 - 'Before' is a preposition.
+        <button>
+            <text>TRUE</text>
+            <postback>POS10</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>POS10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>POS10</pattern>
+    <template>
+        Q10 - 'Of' is a conjunction.
+        <button>
+            <text>TRUE</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>FALSE</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- In, On & At STARTS-->
+<category>
+    <pattern>IOA1</pattern>
+    <template>
+        Q1 - I saw it ____ TV.
+        <button>
+            <text>IN</text>
+            <postback>IOA2</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA2</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA2</pattern>
+    <template>
+      Q2 - I’m going to my cousin’s house ______ Saturday.
+        <button>
+            <text>IN</text>
+            <postback>IOA3</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA3</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA3</pattern>
+    <template>
+        Q3 - How much milk would you like ____ your tea?
+        <button>
+            <text>IN</text>
+            <postback>IOA4</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA4</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA4</pattern>
+    <template>
+        Q4 - His death was announced ______ the radio.
+        <button>
+            <text>IN</text>
+            <postback>IOA5</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA5</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA5</pattern>
+    <template>
+        Q5 - I arrived just ______ time for my flight.
+        <button>
+            <text>IN</text>
+            <postback>IOA6</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA6</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA6</pattern>
+    <template>
+        Q6 - It left exactly ____ time.
+        <button>
+            <text>IN</text>
+            <postback>IOA7</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA7</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA7</pattern>
+    <template>
+        Q7 - He's sitting ____ the bar.
+        <button>
+            <text>IN</text>
+            <postback>IOA8</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA8</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA8</pattern>
+    <template>
+        Q8 - He's ____ his desk working.
+        <button>
+            <text>IN</text>
+            <postback>IOA9</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA9</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA9</pattern>
+    <template>
+        Q9 - I think it's ____ this tape.
+        <button>
+            <text>IN</text>
+            <postback>IOA10</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>IOA10</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>IOA10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>IOA10</pattern>
+    <template>
+        Q10 - Please bear it ___ mind.
+        <button>
+            <text>IN</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>ON</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>AT</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- In, On & At ENDS -->
+<!-- HOW STARTS-->
+<category>
+    <pattern>H1</pattern>
+    <template>
+        Q1 - How ____ does the journey take?
+        <button>
+            <text>far</text>
+            <postback>H2</postback>
+        </button>
+        <button>
+            <text>long</text>
+            <postback>H2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H2</pattern>
+    <template>
+        Q2 - How ____ is it from here to London?
+        <button>
+            <text>distance</text>
+            <postback>H3</postback>
+        </button>
+        <button>
+            <text>far</text>
+            <postback>H3</postback>
+        </button>
+        <button>
+            <text>distant</text>
+            <postback>H3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H3</pattern>
+    <template>
+       Q3 - How ____ is she?
+        <button>
+            <text>old</text>
+            <postback>H4</postback>
+        </button>
+        <button>
+            <text>elder</text>
+            <postback>H4</postback>
+        </button>
+        <button>
+            <text>older</text>
+            <postback>H4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H4</pattern>
+    <template>
+        Q4 - How ____ does a room cost?
+        <button>
+            <text>much</text>
+            <postback>H5</postback>
+        </button>
+        <button>
+            <text>many</text>
+            <postback>H5</postback>
+        </button>
+        <button>
+            <text>money</text>
+            <postback>H5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H5</pattern>
+    <template>
+        Q5 - How ____ were there?
+        <button>
+            <text>much</text>
+            <postback>H6</postback>
+        </button>
+        <button>
+            <text>many</text>
+            <postback>H6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H6</pattern>
+    <template>
+        Q6 - How ____ does the film last?
+        <button>
+            <text>long</text>
+            <postback>H7</postback>
+        </button>
+        <button>
+            <text>old</text>
+            <postback>H7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H7</pattern>
+    <template>
+        Q7 - How ____ is the exam?
+        <button>
+            <text>hard</text>
+            <postback>H8</postback>
+        </button>
+        <button>
+            <text>hardly</text>
+            <postback>H8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H8</pattern>
+    <template>
+        Q8 - How ____ people did you meet?
+        <button>
+            <text>much</text>
+            <postback>H9</postback>
+        </button>
+        <button>
+            <text>many</text>
+            <postback>H9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H9</pattern>
+    <template>
+       Q9 - How ____ times did you speak to them?
+        <button>
+            <text>often</text>
+            <postback>H10</postback>
+        </button>
+        <button>
+            <text>many</text>
+            <postback>H10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>H10</pattern>
+    <template>
+        Q10 - How ____ languages do you speak?
+        <button>
+            <text>much</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>many</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- HOW ENDS -->
+<!-- STANDARD 4 ENDS -->
+
+<!-- STANDARD 5 STARTS-->
+<category>
+    <pattern>STANDARD5</pattern>
+    <template>
+        WHAT TOPIC?
+        <button>
+            <text>Was or Were</text>
+            <postback>WW1</postback>
+        </button>
+        <button>
+            <text>Will or Would</text>
+            <postback>WOW1</postback>
+        </button>
+        <button>
+            <text>Antonyms and Synonyms</text>
+            <postback>AS1</postback>
+        </button>
+    </template>
+</category>
+<!-- Was or Were STARTS-->
+<category>
+    <pattern>WW1</pattern>
+    <template>
+        Q1 - There ____ many people at the show.
+        <button>
+            <text>was</text>
+            <postback>WW2</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW2</pattern>
+    <template>
+        Q2 - ____ you tired?
+        <button>
+            <text>was</text>
+            <postback>WW3</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW3</pattern>
+    <template>
+        Q3 - They ____ late.
+        <button>
+            <text>was</text>
+            <postback>WW4</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW4</pattern>
+    <template>
+        Q4 - I ____ very annoyed.
+        <button>
+            <text>was</text>
+            <postback>WW5</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW5</pattern>
+    <template>
+        Q5 - She ____ there.
+        <button>
+            <text>was</text>
+            <postback>WW6</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW6</pattern>
+    <template>
+       Q6 - Everybody ____ pleased.
+        <button>
+            <text>was</text>
+            <postback>WW7</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW7</pattern>
+    <template>
+        Q7 - There ____ no trouble at the party.
+        <button>
+            <text>was</text>
+            <postback>WW8</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW8</pattern>
+    <template>
+        Q8 - ____ there any difficulty in finding it?
+        <button>
+            <text>was</text>
+            <postback>WW9</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW9</pattern>
+    <template>
+        Q9 - Who ____ at the meeting?
+        <button>
+            <text>was</text>
+            <postback>WW10</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>WW10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WW10</pattern>
+    <template>
+        Q10 - It ____ no bother.
+        <button>
+            <text>was</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>were</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Was or Were ENDS -->
+
+<!-- Will or Would STARTS-->
+<category>
+    <pattern>WOW1</pattern>
+    <template>
+        Q1 - If I have time, I ____ do it.
+        <button>
+            <text>will</text>
+            <postback>WOW2</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW2</pattern>
+    <template>
+        Q2 - I ____ like some coffee, please.
+        <button>
+            <text>will</text>
+            <postback>WOW3</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW3</pattern>
+    <template>
+        Q3 - I promise I ____ be there.
+        <button>
+            <text>will</text>
+            <postback>WOW4</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW4</pattern>
+    <template>
+        Q4 - I didn't expect that she ____ be there.
+        <button>
+            <text>will</text>
+            <postback>WOW5</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW5</pattern>
+    <template>
+        Q5 - I hope we ____ be able to do it.
+        <button>
+            <text>will</text>
+            <postback>WOW6</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW6</pattern>
+    <template>
+        Q6 - I ____ do it if I didn't know how.
+        <button>
+            <text>will</text>
+            <postback>WOW7</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW7</pattern>
+    <template>
+        Q7 - Do you think they ____ come if we asked them?
+        <button>
+            <text>will</text>
+            <postback>WOW8</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW8</pattern>
+    <template>
+        Q8 - I'm really not sure whether I ____ be free tomorrow.
+        <button>
+            <text>will</text>
+            <postback>WOW9</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW9</pattern>
+    <template>
+        Q9 - What do you think ____ happen at the meeting this afternoon?
+        <button>
+            <text>will</text>
+            <postback>WOW10</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>WOW10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>WOW10</pattern>
+    <template>
+        Q10 - If you had to make a choice, what ____ you decide on?
+        <button>
+            <text>will</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>would</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+<!-- Will or Would ENDS -->
+<!-- Antonyms and Synonyms STARTS-->
+<category>
+    <pattern>AS1</pattern>
+    <template>
+        Q1 - 'Big' and 'small' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS2</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS2</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS2</pattern>
+    <template>
+        Q2 - 'Big' and 'large' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS3</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS3</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS3</pattern>
+    <template>
+        Q3 - 'Black' and 'white' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS4</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS4</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS4</pattern>
+    <template>
+        Q4 - 'Huge' and 'vast' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS5</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS5</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS5</pattern>
+    <template>
+        Q5 - 'Huge' and 'tiny' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS6</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS6</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS6</pattern>
+    <template>
+        Q6 - 'Dark' and 'light' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS7</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS7</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS7</pattern>
+    <template>
+        Q7 - 'Fantastic' and 'wonderful' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS8</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS8</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS8</pattern>
+    <template>
+        Q8 - 'Fantastic' and 'awful' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS9</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS9</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS9</pattern>
+    <template>
+        Q9 - 'Dry' and 'wet' are...
+        <button>
+            <text>antonyms</text>
+            <postback>AS10</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>AS10</postback>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>AS10</pattern>
+    <template>
+        Q10 - 'Cheap' and 'costly' are...
+        <button>
+            <text>antonyms</text>
+            <postback>THANKS</postback>
+        </button>
+        <button>
+            <text>synonyms</text>
+            <postback>THANKS</postback>
+        </button>
+    </template>
+</category>
+</aiml>
+</xml>
