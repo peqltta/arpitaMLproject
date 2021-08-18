@@ -11,51 +11,17 @@
     <pattern>MY NAME IS *</pattern>
     <template>
     <think><set name="firstname"><star /></set></think>
-    HOW MAY I HELP YOU?  <get name="firstname"></get>   (PRACTICE)
+    HOW MAY I HELP YOU?    
+ <get name="firstname"></get>
+   (PRACTICE)
     </template>
     </category>
     <category>
-        <pattern>
-            PRACTICE
-        </pattern>
-        <template>
-        <srai>
-            PRACTICESELECTED
-        </srai>
-        </template>
-    </category>
-    <category>
-        <pattern>PRACTICESELECTED</pattern>
-        <template>
-            WHICH GROUP OF STUDENTS?
-        </template>
+        <pattern>PRACTICE</pattern>
+        <template>OK LETS PRACTICE, WHICH GROUP OF STUDENTS?  KINDERGARTEN, STANDARD 1-5</template>
     </category>
     <category>
         <pattern>KINDERGARTEN</pattern>
-        <template><srai>TOPIC</srai></template>
-    </category>
-    <category>
-        <pattern>STANDARD 1</pattern>
-        <template><srai>STANDARD1</srai></template>
-    </category>
-    <category>
-        <pattern>STANDARD 2</pattern>
-        <template><srai>STANDARD2</srai></template>
-    </category>
-    <category>
-        <pattern>STANDARD 3</pattern>
-        <template><srai>STANDARD3</srai></template>
-    </category>
-    <category>
-        <pattern>STANDARD 4</pattern>
-        <template><srai>STANDARD4</srai></template>
-    </category>
-    <category>
-        <pattern>STANDARD 5</pattern>
-        <template><srai>STANDARD5</srai></template>
-    </category>
-    <category>
-        <pattern>TOPIC</pattern>
         <template>
     Which topic?   <br />
     A, An, Some or One   <br />
@@ -68,15 +34,7 @@
         <template><think><set name="topic">KINDERGARTENQUIZ</set><srai>KINDERGARTENQUIZ1</srai></think></template>
     </category>
     <category>
-        <pattern>SINGULAR OR PLURAL</pattern>
-        <template><think><set name="topic">KINDERGARTENQUIZ1</set><srai>KINDERGARTENQUIZ1</srai></think></template>
-    </category>
-    <category>
-        <pattern>THAT AND WHAT</pattern>
-        <template><think><set name="topic">KINDERGARTENQUIZ2</set><srai>KINDERGARTENQUIZ2</srai></think></template>
-    </category>
-    <category>
-        <pattern>KINDERGARTENQUIZ</pattern>
+        <pattern>A AN SOME OR ONE</pattern>
         <template>
             A, An, Some or One    <br />
             Q1 - There's ____ money in my wallet.    <br />
@@ -146,7 +104,7 @@
     </category>
     <!-- SINGULAR AND PLURAL START-->
     <category>
-        <pattern>KINDERGARTENQUIZ1</pattern>
+        <pattern>SINGULAR OR PLURAL</pattern>
         <template>
             Singular or Plural?
 
@@ -231,7 +189,7 @@
     <!--SINGULAR AND PLURAL ENDS-->
     <!-- THAT AND WHAT STARTS-->
     <category>
-        <pattern>KINDERGARTENQUIZ2</pattern>
+        <pattern>THAT * WHAT</pattern>
         <template>Anything ____ she says is bound to be rubbish.    THAT OR WHAT?
 
         </template>
@@ -293,7 +251,7 @@
 
     <!-- STANDARD 1 STARTS-->
     <category>
-        <pattern>STANDARD1</pattern>
+        <pattern>STANDARD 1</pattern>
         <template>WHAT TOPIC?    Consonants and Vowels?   No and Not?   Comparitives  ?</template>
     </category>
     <category>
@@ -373,11 +331,11 @@
 
     <!-- NO & NOT STARTS-->
     <category>
-        <pattern>NN</pattern>
+        <pattern>NO AND NOT</pattern>
         <template>NO AND NOT   <br />
             Q1 - ____ students finished the test
 
-        </template>
+        <think><srai>NN2</srai></think></template>
     </category>
     <category>
         <pattern>NN2</pattern>
@@ -516,11 +474,12 @@
         </template>
     </category>
     <!-- Comparatives ENDS -->
-    <!--STANDARD 1 ENDS-->
+    <!--
+STANDARD 1 ENDS-->
 
     <!-- STANDARD 2 STARTS-->
     <category>
-        <pattern>STANDARD2</pattern>
+        <pattern>STANDARD 2</pattern>
         <template>
             WHAT TOPIC?   Yesterday, Today AND Tomorrow STARTS,   Few AND Little,    Adjectives- positive AMD negative
         </template>
@@ -765,7 +724,7 @@
 
     <!-- STANDARD 3 STARTS -->
     <category>
-        <pattern>STANDARD3</pattern>
+        <pattern>STANDARD 3</pattern>
         <template>
             WHAT TOPIC?
             
@@ -1223,7 +1182,7 @@
     <!-- STANDARD 3 ENDS -->
     <!-- STANDARD 4 STARTS-->
     <category>
-        <pattern>STANDARD4</pattern>
+        <pattern>STANDARD 4</pattern>
         <template>
             WHAT TOPIC?
             
@@ -1720,7 +1679,7 @@
 
     <!-- STANDARD 5 STARTS-->
     <category>
-        <pattern>STANDARD5</pattern>
+        <pattern>STANDARD 5</pattern>
         <template>
             WHAT TOPIC?
             
@@ -2163,252 +2122,5 @@
             
         </template>
     </category>
-<category><pattern>*</pattern><template><think><srai>STUDENT</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>PRACTICESELECTED</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>KINDERGARTEN</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>TOPIC</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>KINDERGARTENQUIZ</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>THANKS</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>KINDERGARTENQUIZ1</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUESTION10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUESTION11</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>KINDERGARTENQUIZ2</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST2</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST3</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST4</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST5</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST6</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST7</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST8</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST9</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>QUEST10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>STANDARD1</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>CVQ10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES2</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES3</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES4</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES5</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES6</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES7</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES8</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES9</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>COMPARATIVES10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>STANDARD2</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>ADJECTIVES</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>YTT10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>APN10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>STANDARD3</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>SSO10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>STANDARD4</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>POS10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>IOA10</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>STANDARD5</srai></think></template></category>
-    <category><pattern>*</pattern><template><think><srai>WOW10</srai></think></template></category>
-<category><pattern>^ STUDENT ^</pattern><template><think><srai>STUDENT</srai></think></template></category>
-<category><pattern>^ NAME IS * ^</pattern><template><think><srai>MY NAME IS *</srai></think></template></category>
-<category><pattern>^ PRACTICESELECTED ^</pattern><template><think><srai>PRACTICESELECTED</srai></think></template></category>
-<category><pattern>^ KINDERGARTEN ^</pattern><template><think><srai>KINDERGARTEN</srai></think></template></category>
-<category><pattern>^ STANDARD 1 ^</pattern><template><think><srai>STANDARD 1</srai></think></template></category>
-<category><pattern>^ STANDARD 2 ^</pattern><template><think><srai>STANDARD 2</srai></think></template></category>
-<category><pattern>^ STANDARD 3 ^</pattern><template><think><srai>STANDARD 3</srai></think></template></category>
-<category><pattern>^ STANDARD 4 ^</pattern><template><think><srai>STANDARD 4</srai></think></template></category>
-<category><pattern>^ STANDARD 5 ^</pattern><template><think><srai>STANDARD 5</srai></think></template></category>
-<category><pattern>^ TOPIC ^</pattern><template><think><srai>TOPIC</srai></think></template></category>
-<category><pattern>^ A AN SOME OR ONE ^</pattern><template><think><srai>A AN SOME OR ONE</srai></think></template></category>
-<category><pattern>^ SINGULAR OR PLURAL ^</pattern><template><think><srai>SINGULAR OR PLURAL</srai></think></template></category>
-<category><pattern>^ THAT AND WHAT ^</pattern><template><think><srai>THAT AND WHAT</srai></think></template></category>
-<category><pattern>^ KINDERGARTENQUIZ ^</pattern><template><think><srai>KINDERGARTENQUIZ</srai></think></template></category>
-<category><pattern>^ Q2 ^</pattern><template><think><srai>Q2</srai></think></template></category>
-<category><pattern>^ Q3 ^</pattern><template><think><srai>Q3</srai></think></template></category>
-<category><pattern>^ Q4 ^</pattern><template><think><srai>Q4</srai></think></template></category>
-<category><pattern>^ Q5 ^</pattern><template><think><srai>Q5</srai></think></template></category>
-<category><pattern>^ Q6 ^</pattern><template><think><srai>Q6</srai></think></template></category>
-<category><pattern>^ Q7 ^</pattern><template><think><srai>Q7</srai></think></template></category>
-<category><pattern>^ Q8 ^</pattern><template><think><srai>Q8</srai></think></template></category>
-<category><pattern>^ THANKS ^</pattern><template><think><srai>THANKS</srai></think></template></category>
-<category><pattern>^ KINDERGARTENQUIZ1 ^</pattern><template><think><srai>KINDERGARTENQUIZ1</srai></think></template></category>
-<category><pattern>^ Q1 - Glasses ^</pattern><template><think><srai>Q1 - Glasses</srai></think></template></category>
-<category><pattern>^ Q2 - News ^</pattern><template><think><srai>Q2 - News</srai></think></template></category>
-<category><pattern>^ Q3 - Scissors ^</pattern><template><think><srai>Q3 - Scissors</srai></think></template></category>
-<category><pattern>^ Q4 - Police ^</pattern><template><think><srai>Q4 - Police</srai></think></template></category>
-<category><pattern>^ Q5 - Oxen ^</pattern><template><think><srai>Q5 - Oxen</srai></think></template></category>
-<category><pattern>^ Q6 - Criterion ^</pattern><template><think><srai>Q6 - Criterion</srai></think></template></category>
-<category><pattern>^ Q7 - Criteria ^</pattern><template><think><srai>Q7 - Criteria</srai></think></template></category>
-<category><pattern>^ Q8 - People ^</pattern><template><think><srai>Q8 - People</srai></think></template></category>
-<category><pattern>^ Q9 - We use 'amount' with... ^</pattern><template><think><srai>Q9 - We use 'amount' with...</srai></think></template></category>
-<category><pattern>^ QUESTION10 ^</pattern><template><think><srai>QUESTION10</srai></think></template></category>
-<category><pattern>^ QUESTION11 ^</pattern><template><think><srai>QUESTION11</srai></think></template></category>
-<category><pattern>^ KINDERGARTENQUIZ2 ^</pattern><template><think><srai>KINDERGARTENQUIZ2</srai></think></template></category>
-<category><pattern>^ QUEST2 ^</pattern><template><think><srai>QUEST2</srai></think></template></category>
-<category><pattern>^ QUEST3 ^</pattern><template><think><srai>QUEST3</srai></think></template></category>
-<category><pattern>^ QUEST4 ^</pattern><template><think><srai>QUEST4</srai></think></template></category>
-<category><pattern>^ QUEST5 ^</pattern><template><think><srai>QUEST5</srai></think></template></category>
-<category><pattern>^ QUEST6 ^</pattern><template><think><srai>QUEST6</srai></think></template></category>
-<category><pattern>^ QUEST7 ^</pattern><template><think><srai>QUEST7</srai></think></template></category>
-<category><pattern>^ QUEST8 ^</pattern><template><think><srai>QUEST8</srai></think></template></category>
-<category><pattern>^ QUEST9 ^</pattern><template><think><srai>QUEST9</srai></think></template></category>
-<category><pattern>^ QUEST10 ^</pattern><template><think><srai>QUEST10</srai></think></template></category>
-<category><pattern>^ STANDARD1 ^</pattern><template><think><srai>STANDARD1</srai></think></template></category>
-<category><pattern>^ CONSONANTS AND VOWELS ^</pattern><template><think><srai>CONSONANTS AND VOWELS</srai></think></template></category>
-<category><pattern>^ NO AND NOT ^</pattern><template><think><srai>NO AND NOT</srai></think></template></category>
-<category><pattern>^ CVQ ^</pattern><template><think><srai>CVQ</srai></think></template></category>
-<category><pattern>^ CVQ ^</pattern><template><think><srai>CVQ</srai></think></template></category>
-<category><pattern>^ CVQ ^</pattern><template><think><srai>CVQ</srai></think></template></category>
-<category><pattern>^ CV4 ^</pattern><template><think><srai>CV4</srai></think></template></category>
-<category><pattern>^ CV5 ^</pattern><template><think><srai>CV5</srai></think></template></category>
-<category><pattern>^ CV6 ^</pattern><template><think><srai>CV6</srai></think></template></category>
-<category><pattern>^ CVQ7 ^</pattern><template><think><srai>CVQ7</srai></think></template></category>
-<category><pattern>^ CVQ8 ^</pattern><template><think><srai>CVQ8</srai></think></template></category>
-<category><pattern>^ CVQ9 ^</pattern><template><think><srai>CVQ9</srai></think></template></category>
-<category><pattern>^ CVQ10 ^</pattern><template><think><srai>CVQ10</srai></think></template></category>
-<category><pattern>^ CVQ ^</pattern><template><think><srai>CVQ</srai></think></template></category>
-<category><pattern>^ NN ^</pattern><template><think><srai>NN</srai></think></template></category>
-<category><pattern>^ NN2 ^</pattern><template><think><srai>NN2</srai></think></template></category>
-<category><pattern>^ NN3 ^</pattern><template><think><srai>NN3</srai></think></template></category>
-<category><pattern>^ NN4 ^</pattern><template><think><srai>NN4</srai></think></template></category>
-<category><pattern>^ NN5 ^</pattern><template><think><srai>NN5</srai></think></template></category>
-<category><pattern>^ NN6 ^</pattern><template><think><srai>NN6</srai></think></template></category>
-<category><pattern>^ NN7 ^</pattern><template><think><srai>NN7</srai></think></template></category>
-<category><pattern>^ NN8 ^</pattern><template><think><srai>NN8</srai></think></template></category>
-<category><pattern>^ NN9 ^</pattern><template><think><srai>NN9</srai></think></template></category>
-<category><pattern>^ NN10 ^</pattern><template><think><srai>NN10</srai></think></template></category>
-<category><pattern>^ COMPARATIVES ^</pattern><template><think><srai>COMPARATIVES</srai></think></template></category>
-<category><pattern>^ COMPARATIVES2 ^</pattern><template><think><srai>COMPARATIVES2</srai></think></template></category>
-<category><pattern>^ COMPARATIVES3 ^</pattern><template><think><srai>COMPARATIVES3</srai></think></template></category>
-<category><pattern>^ COMPARATIVES4 ^</pattern><template><think><srai>COMPARATIVES4</srai></think></template></category>
-<category><pattern>^ COMPARATIVES5 ^</pattern><template><think><srai>COMPARATIVES5</srai></think></template></category>
-<category><pattern>^ COMPARATIVES6 ^</pattern><template><think><srai>COMPARATIVES6</srai></think></template></category>
-<category><pattern>^ COMPARATIVES7 ^</pattern><template><think><srai>COMPARATIVES7</srai></think></template></category>
-<category><pattern>^ COMPARATIVES8 ^</pattern><template><think><srai>COMPARATIVES8</srai></think></template></category>
-<category><pattern>^ COMPARATIVES9 ^</pattern><template><think><srai>COMPARATIVES9</srai></think></template></category>
-<category><pattern>^ COMPARATIVES10 ^</pattern><template><think><srai>COMPARATIVES10</srai></think></template></category>
-<category><pattern>^ STANDARD2 ^</pattern><template><think><srai>STANDARD2</srai></think></template></category>
-<category><pattern>^ YESTERDAY TODAY AND TOMORROW ^</pattern><template><think><srai>YESTERDAY TODAY AND TOMORROW</srai></think></template></category>
-<category><pattern>^ FEW AND LITTLE ^</pattern><template><think><srai>FEW AND LITTLE</srai></think></template></category>
-<category><pattern>^ ADJECTIVES ^</pattern><template><think><srai>ADJECTIVES</srai></think></template></category>
-<category><pattern>^ YTT1 ^</pattern><template><think><srai>YTT1</srai></think></template></category>
-<category><pattern>^ YTT2 ^</pattern><template><think><srai>YTT2</srai></think></template></category>
-<category><pattern>^ YTT3 ^</pattern><template><think><srai>YTT3</srai></think></template></category>
-<category><pattern>^ YTT4 ^</pattern><template><think><srai>YTT4</srai></think></template></category>
-<category><pattern>^ YTT5 ^</pattern><template><think><srai>YTT5</srai></think></template></category>
-<category><pattern>^ YTT6 ^</pattern><template><think><srai>YTT6</srai></think></template></category>
-<category><pattern>^ YTT7 ^</pattern><template><think><srai>YTT7</srai></think></template></category>
-<category><pattern>^ YTT8 ^</pattern><template><think><srai>YTT8</srai></think></template></category>
-<category><pattern>^ YTT9 ^</pattern><template><think><srai>YTT9</srai></think></template></category>
-<category><pattern>^ YTT10 ^</pattern><template><think><srai>YTT10</srai></think></template></category>
-<category><pattern>^ FL1 ^</pattern><template><think><srai>FL1</srai></think></template></category>
-<category><pattern>^ FL2 ^</pattern><template><think><srai>FL2</srai></think></template></category>
-<category><pattern>^ FL3 ^</pattern><template><think><srai>FL3</srai></think></template></category>
-<category><pattern>^ FL4 ^</pattern><template><think><srai>FL4</srai></think></template></category>
-<category><pattern>^ FL5 ^</pattern><template><think><srai>FL5</srai></think></template></category>
-<category><pattern>^ FL6 ^</pattern><template><think><srai>FL6</srai></think></template></category>
-<category><pattern>^ FL7 ^</pattern><template><think><srai>FL7</srai></think></template></category>
-<category><pattern>^ FL8 ^</pattern><template><think><srai>FL8</srai></think></template></category>
-<category><pattern>^ FL9 ^</pattern><template><think><srai>FL9</srai></think></template></category>
-<category><pattern>^ FL10 ^</pattern><template><think><srai>FL10</srai></think></template></category>
-<category><pattern>^ APN1 ^</pattern><template><think><srai>APN1</srai></think></template></category>
-<category><pattern>^ APN2 ^</pattern><template><think><srai>APN2</srai></think></template></category>
-<category><pattern>^ APN3 ^</pattern><template><think><srai>APN3</srai></think></template></category>
-<category><pattern>^ APN4 ^</pattern><template><think><srai>APN4</srai></think></template></category>
-<category><pattern>^ APN5 ^</pattern><template><think><srai>APN5</srai></think></template></category>
-<category><pattern>^ APN6 ^</pattern><template><think><srai>APN6</srai></think></template></category>
-<category><pattern>^ APN7 ^</pattern><template><think><srai>APN7</srai></think></template></category>
-<category><pattern>^ APN8 ^</pattern><template><think><srai>APN8</srai></think></template></category>
-<category><pattern>^ APN9 ^</pattern><template><think><srai>APN9</srai></think></template></category>
-<category><pattern>^ APN10 ^</pattern><template><think><srai>APN10</srai></think></template></category>
-<category><pattern>^ STANDARD3 ^</pattern><template><think><srai>STANDARD3</srai></think></template></category>
-<category><pattern>^ EN1 ^</pattern><template><think><srai>EN1</srai></think></template></category>
-<category><pattern>^ EN2 ^</pattern><template><think><srai>EN2</srai></think></template></category>
-<category><pattern>^ EN3 ^</pattern><template><think><srai>EN3</srai></think></template></category>
-<category><pattern>^ EN4 ^</pattern><template><think><srai>EN4</srai></think></template></category>
-<category><pattern>^ EN5 ^</pattern><template><think><srai>EN5</srai></think></template></category>
-<category><pattern>^ EN6 ^</pattern><template><think><srai>EN6</srai></think></template></category>
-<category><pattern>^ EN7 ^</pattern><template><think><srai>EN7</srai></think></template></category>
-<category><pattern>^ EN8 ^</pattern><template><think><srai>EN8</srai></think></template></category>
-<category><pattern>^ EN9 ^</pattern><template><think><srai>EN9</srai></think></template></category>
-<category><pattern>^ EN10 ^</pattern><template><think><srai>EN10</srai></think></template></category>
-<category><pattern>^ MM1 ^</pattern><template><think><srai>MM1</srai></think></template></category>
-<category><pattern>^ MM2 ^</pattern><template><think><srai>MM2</srai></think></template></category>
-<category><pattern>^ MM3 ^</pattern><template><think><srai>MM3</srai></think></template></category>
-<category><pattern>^ MM4 ^</pattern><template><think><srai>MM4</srai></think></template></category>
-<category><pattern>^ MM5 ^</pattern><template><think><srai>MM5</srai></think></template></category>
-<category><pattern>^ MM6 ^</pattern><template><think><srai>MM6</srai></think></template></category>
-<category><pattern>^ MM7 ^</pattern><template><think><srai>MM7</srai></think></template></category>
-<category><pattern>^ MM8 ^</pattern><template><think><srai>MM8</srai></think></template></category>
-<category><pattern>^ MM9 ^</pattern><template><think><srai>MM9</srai></think></template></category>
-<category><pattern>^ MM10 ^</pattern><template><think><srai>MM10</srai></think></template></category>
-<category><pattern>^ SSO1 ^</pattern><template><think><srai>SSO1</srai></think></template></category>
-<category><pattern>^ SSO2 ^</pattern><template><think><srai>SSO2</srai></think></template></category>
-<category><pattern>^ SSO3 ^</pattern><template><think><srai>SSO3</srai></think></template></category>
-<category><pattern>^ SSO4 ^</pattern><template><think><srai>SSO4</srai></think></template></category>
-<category><pattern>^ SSO5 ^</pattern><template><think><srai>SSO5</srai></think></template></category>
-<category><pattern>^ SSO6 ^</pattern><template><think><srai>SSO6</srai></think></template></category>
-<category><pattern>^ SSO7 ^</pattern><template><think><srai>SSO7</srai></think></template></category>
-<category><pattern>^ SSO8 ^</pattern><template><think><srai>SSO8</srai></think></template></category>
-<category><pattern>^ SSO9 ^</pattern><template><think><srai>SSO9</srai></think></template></category>
-<category><pattern>^ SSO10 ^</pattern><template><think><srai>SSO10</srai></think></template></category>
-<category><pattern>^ STANDARD4 ^</pattern><template><think><srai>STANDARD4</srai></think></template></category>
-<category><pattern>^ POS1 ^</pattern><template><think><srai>POS1</srai></think></template></category>
-<category><pattern>^ POS2 ^</pattern><template><think><srai>POS2</srai></think></template></category>
-<category><pattern>^ POS3 ^</pattern><template><think><srai>POS3</srai></think></template></category>
-<category><pattern>^ POS4 ^</pattern><template><think><srai>POS4</srai></think></template></category>
-<category><pattern>^ POS5 ^</pattern><template><think><srai>POS5</srai></think></template></category>
-<category><pattern>^ POS6 ^</pattern><template><think><srai>POS6</srai></think></template></category>
-<category><pattern>^ POS7 ^</pattern><template><think><srai>POS7</srai></think></template></category>
-<category><pattern>^ POS8 ^</pattern><template><think><srai>POS8</srai></think></template></category>
-<category><pattern>^ POS9 ^</pattern><template><think><srai>POS9</srai></think></template></category>
-<category><pattern>^ POS10 ^</pattern><template><think><srai>POS10</srai></think></template></category>
-<category><pattern>^ IOA1 ^</pattern><template><think><srai>IOA1</srai></think></template></category>
-<category><pattern>^ IOA2 ^</pattern><template><think><srai>IOA2</srai></think></template></category>
-<category><pattern>^ IOA3 ^</pattern><template><think><srai>IOA3</srai></think></template></category>
-<category><pattern>^ IOA4 ^</pattern><template><think><srai>IOA4</srai></think></template></category>
-<category><pattern>^ IOA5 ^</pattern><template><think><srai>IOA5</srai></think></template></category>
-<category><pattern>^ IOA6 ^</pattern><template><think><srai>IOA6</srai></think></template></category>
-<category><pattern>^ IOA7 ^</pattern><template><think><srai>IOA7</srai></think></template></category>
-<category><pattern>^ IOA8 ^</pattern><template><think><srai>IOA8</srai></think></template></category>
-<category><pattern>^ IOA9 ^</pattern><template><think><srai>IOA9</srai></think></template></category>
-<category><pattern>^ IOA10 ^</pattern><template><think><srai>IOA10</srai></think></template></category>
-<category><pattern>^ H1 ^</pattern><template><think><srai>H1</srai></think></template></category>
-<category><pattern>^ H2 ^</pattern><template><think><srai>H2</srai></think></template></category>
-<category><pattern>^ H3 ^</pattern><template><think><srai>H3</srai></think></template></category>
-<category><pattern>^ H4 ^</pattern><template><think><srai>H4</srai></think></template></category>
-<category><pattern>^ H5 ^</pattern><template><think><srai>H5</srai></think></template></category>
-<category><pattern>^ H6 ^</pattern><template><think><srai>H6</srai></think></template></category>
-<category><pattern>^ H7 ^</pattern><template><think><srai>H7</srai></think></template></category>
-<category><pattern>^ H8 ^</pattern><template><think><srai>H8</srai></think></template></category>
-<category><pattern>^ H9 ^</pattern><template><think><srai>H9</srai></think></template></category>
-<category><pattern>^ H10 ^</pattern><template><think><srai>H10</srai></think></template></category>
-<category><pattern>^ STANDARD5 ^</pattern><template><think><srai>STANDARD5</srai></think></template></category>
-<category><pattern>^ WW1 ^</pattern><template><think><srai>WW1</srai></think></template></category>
-<category><pattern>^ WW2 ^</pattern><template><think><srai>WW2</srai></think></template></category>
-<category><pattern>^ WW3 ^</pattern><template><think><srai>WW3</srai></think></template></category>
-<category><pattern>^ WW4 ^</pattern><template><think><srai>WW4</srai></think></template></category>
-<category><pattern>^ WW5 ^</pattern><template><think><srai>WW5</srai></think></template></category>
-<category><pattern>^ WW6 ^</pattern><template><think><srai>WW6</srai></think></template></category>
-<category><pattern>^ WW7 ^</pattern><template><think><srai>WW7</srai></think></template></category>
-<category><pattern>^ WW8 ^</pattern><template><think><srai>WW8</srai></think></template></category>
-<category><pattern>^ WW9 ^</pattern><template><think><srai>WW9</srai></think></template></category>
-<category><pattern>^ WW10 ^</pattern><template><think><srai>WW10</srai></think></template></category>
-<category><pattern>^ WOW1 ^</pattern><template><think><srai>WOW1</srai></think></template></category>
-<category><pattern>^ WOW2 ^</pattern><template><think><srai>WOW2</srai></think></template></category>
-<category><pattern>^ WOW3 ^</pattern><template><think><srai>WOW3</srai></think></template></category>
-<category><pattern>^ WOW4 ^</pattern><template><think><srai>WOW4</srai></think></template></category>
-<category><pattern>^ WOW5 ^</pattern><template><think><srai>WOW5</srai></think></template></category>
-<category><pattern>^ WOW6 ^</pattern><template><think><srai>WOW6</srai></think></template></category>
-<category><pattern>^ WOW7 ^</pattern><template><think><srai>WOW7</srai></think></template></category>
-<category><pattern>^ WOW8 ^</pattern><template><think><srai>WOW8</srai></think></template></category>
-<category><pattern>^ WOW9 ^</pattern><template><think><srai>WOW9</srai></think></template></category>
-<category><pattern>^ WOW10 ^</pattern><template><think><srai>WOW10</srai></think></template></category>
-<category><pattern>^ AS1 ^</pattern><template><think><srai>AS1</srai></think></template></category>
-<category><pattern>^ AS2 ^</pattern><template><think><srai>AS2</srai></think></template></category>
-<category><pattern>^ AS3 ^</pattern><template><think><srai>AS3</srai></think></template></category>
-<category><pattern>^ AS4 ^</pattern><template><think><srai>AS4</srai></think></template></category>
-<category><pattern>^ AS5 ^</pattern><template><think><srai>AS5</srai></think></template></category>
-<category><pattern>^ AS6 ^</pattern><template><think><srai>AS6</srai></think></template></category>
-<category><pattern>^ AS7 ^</pattern><template><think><srai>AS7</srai></think></template></category>
-<category><pattern>^ AS8 ^</pattern><template><think><srai>AS8</srai></think></template></category>
-<category><pattern>^ AS9 ^</pattern><template><think><srai>AS9</srai></think></template></category>
-<category><pattern>^ AS10 ^</pattern><template><think><srai>AS10</srai></think></template></category>
-        </aiml>
-    </xml>
+</aiml>
+</xml>

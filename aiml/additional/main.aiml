@@ -39,10 +39,16 @@
 		</template>
 	</category>
 	<category>
+		<pattern>HELP</pattern>
+		<template>
+			Please Type/Say (Teacher, Student, Rosie, Alice, Eliza, Games)
+		</template>
+	</category>
+	<category>
 		<pattern>TEACHER</pattern>
 		
 		<template>
-			Teacher files loaded
+			Teacher files loaded, Please tell me your name (My name is ____ )
 		<think>
 		<learn>./aiml/additional/teacher/teacher.aiml</learn>
 		</think>
@@ -53,7 +59,7 @@
 		<pattern>STUDENT</pattern>
 		
 		<template>
-			Student files loaded
+			Student files loaded, Please tell me your name (My name is ____ )
 		<think>
 		<learn>./aiml/additional/student/student.aiml</learn>
 		</think>
@@ -68,11 +74,19 @@
 		</template>
 		
 	</category>
-
+	<category>
+		<pattern>GAMES</pattern>
+		<template>
+		(Jokes or Limmerics are better) i like knock knock jokes
+		<think>
+		<learn>./aiml/standard/*</learn>
+		</think>
+		</template>
+	</category>
 	<category>
 		<pattern>ALICE</pattern>
 		<template>
-		Lets talk to Alice.
+		Lets talk to Alice. Maybe start by telling her your name
 		<think>
 		<learn>./aiml/additional/alice/*</learn>
 		</think>
@@ -81,7 +95,7 @@
 	<category>
 		<pattern>ELIZA</pattern>
 		<template>
-		Lets talk to Eliza.
+		Lets talk to Eliza. Eliza is a medical professional!
 		<think>
 		<learn>./aiml/additional/alice/*</learn>
 		</think>
@@ -90,7 +104,7 @@
 	<category>
 		<pattern>ROSIE</pattern>
 		<template>
-		Lets talk to Rosie.
+		Lets talk to Rosie.  Rosie is soooo smart
 		<think>
 		<learn>./aiml/additional/alice/*</learn>
 		</think>
@@ -101,12 +115,9 @@
 		<template>
 			Okay.
 		<think>
-		<learn>./aiml/*.aiml</learn>
-		<learn>./aiml/standard/*.aiml</learn>
-		<learn>./aiml/updated/*.aiml</learn>
+		<learn>./aiml/additional/main.aiml</learn>
 		</think>
 		</template>
 	</category>
-	
 </aiml>
 </xml>

@@ -5,9 +5,6 @@
 <template>
 <think>
 <learn>aiml/additional/main.aiml</learn>
-<learn>./aiml/*.aiml</learn>
-<learn>./aiml/standard/*.aiml</learn>
-<learn>./aiml/updated/*.aiml</learn>
 </think>
 </template>
 </category>

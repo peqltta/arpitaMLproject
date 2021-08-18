@@ -121,3 +121,781 @@ Traceback (most recent call last):
   File "/usr/lib64/python3.7/socketserver.py", line 466, in server_bind
     self.socket.bind(self.server_address)
 OSError: [Errno 99] Cannot assign requested address
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+Loading ./aiml/standard/20q.aiml...done (0.00 seconds)
+Loading ./aiml/standard/battledome.aiml...done (0.01 seconds)
+Loading ./aiml/standard/binary.aiml...done (0.01 seconds)
+Loading ./aiml/standard/blackjack.aiml...done (0.03 seconds)
+Loading ./aiml/standard/bornin.aiml...done (0.03 seconds)
+Loading ./aiml/standard/botcompare.aiml...done (0.04 seconds)
+Loading ./aiml/standard/calendar.aiml...done (0.00 seconds)
+Loading ./aiml/standard/chatbots32.aiml...done (0.00 seconds)
+Loading ./aiml/standard/copyme.aiml...done (0.00 seconds)
+Loading ./aiml/standard/currency.aiml...done (0.01 seconds)
+Loading ./aiml/standard/daystoxmas.aiml...done (0.00 seconds)
+Loading ./aiml/standard/drphil.aiml...done (0.01 seconds)
+Loading ./aiml/standard/gender.aiml...done (0.17 seconds)
+Loading ./aiml/standard/hangman.aiml...done (0.02 seconds)
+Loading ./aiml/standard/happy.aiml...done (0.00 seconds)
+Loading ./aiml/standard/highroller.aiml...done (0.04 seconds)
+Loading ./aiml/standard/horoscope.aiml...done (0.00 seconds)
+Loading ./aiml/standard/howmany.aiml...done (0.00 seconds)
+Loading ./aiml/standard/jokes.aiml...done (0.00 seconds)
+Loading ./aiml/standard/knockknock.aiml...done (0.00 seconds)
+Loading ./aiml/standard/learn.aiml...done (0.01 seconds)
+Loading ./aiml/standard/limericks.aiml...done (0.00 seconds)
+Loading ./aiml/standard/luckyslots.aiml...done (0.02 seconds)
+Loading ./aiml/standard/maths.aiml...done (0.00 seconds)
+Loading ./aiml/standard/numberdrop.aiml...done (0.01 seconds)
+Loading ./aiml/standard/numberones.aiml...done (0.12 seconds)
+Loading ./aiml/standard/onthisday.aiml...done (0.02 seconds)
+Loading ./aiml/standard/poker.aiml...done (0.03 seconds)
+Loading ./aiml/standard/quizfacts.aiml...done (0.01 seconds)
+Loading ./aiml/standard/seasons.aiml...done (0.00 seconds)
+Loading ./aiml/standard/shutup.aiml...done (0.00 seconds)
+Loading ./aiml/standard/tictactoe.aiml...done (0.02 seconds)
+Loading ./aiml/standard/warnings.aiml...done (0.00 seconds)
+Loading ./aiml/standard/whatday_eng.aiml...done (0.05 seconds)
+Loading ./aiml/standard/whatday_usa.aiml...done (0.05 seconds)
+Loading ./aiml/standard/wordplay.aiml...done (0.02 seconds)
+Loading ./aiml/standard/yomama.aiml...done (0.00 seconds)
+Loading ./aiml/standard/zbert.aiml...done (0.00 seconds)
+Loading ./aiml/updated/addlessonplan.aiml...
+Kernel bootstrap completed in 0.76 seconds
+Saving brain to bot_brain.brn...done (0.02 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+
+FATAL PARSE ERROR in file ./aiml/updated/addlessonplan.aiml:
+./aiml/updated/addlessonplan.aiml:3:152: mismatched tag
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 02:06:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:06:22] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:06:22] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:06:30] "POST /ask HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 02:06:42] "POST /ask HTTP/1.0" 200 -
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.19 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.13 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.29 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.16 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.35 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.37 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.24 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.24 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.41 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.13 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.57 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.31 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/religion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/salutations.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/science.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/sex.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/sports.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stack.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stories.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/that.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/update.aiml...done (0.10 seconds)
+Loading ./aiml/additional/alice/wallace.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/xfind.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.38 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.37 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.30 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.46 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/religion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/salutations.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/science.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/sex.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/sports.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stack.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stories.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/that.aiml...PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 02:06:46] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:02] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:03] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:07] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:08] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:10] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:17] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:25] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:31] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:35] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:37] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:41] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:46] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:48] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:50] "POST /ask HTTP/1.0" 200 -
+
+FATAL PARSE ERROR in file ./aiml/updated/addlessonplan.aiml:
+./aiml/updated/addlessonplan.aiml:3:152: mismatched tag
+127.0.0.1 - - [18/Aug/2021 02:07:59] "[32mGET /restart HTTP/1.0[0m" 302 -
+127.0.0.1 - - [18/Aug/2021 02:07:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:07:59] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:07:59] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:10:51] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:10:51] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:10:52] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 02:11:03] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:03] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:24] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:31] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:41] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:48] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 02:11:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:11:51] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:11:51] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:12:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:12:01] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:12:01] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:13:24] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:13:25] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:13:25] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:13:56] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:14:05] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:14:17] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:14:40] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:14:57] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:15:32] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:15:39] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:15:47] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:16:02] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:16:11] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 02:16:21] "POST /ask HTTP/1.0" 200 -
+[2021-08-18 02:17:49,784] ERROR in app: Exception on /restart [GET]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 84, in restart
+    os.remove("bot_brain.brn")
+FileNotFoundError: [Errno 2] No such file or directory: 'bot_brain.brn'
+127.0.0.1 - - [18/Aug/2021 02:17:49] "[35m[1mGET /restart HTTP/1.0[0m" 500 -
+
+FATAL PARSE ERROR in file ./aiml/updated/addlessonplan.aiml:
+./aiml/updated/addlessonplan.aiml:3:152: mismatched tag
+127.0.0.1 - - [18/Aug/2021 02:17:50] "[32mGET /restart HTTP/1.0[0m" 302 -
+
+FATAL PARSE ERROR in file ./aiml/updated/addlessonplan.aiml:
+./aiml/updated/addlessonplan.aiml:3:152: mismatched tag
+127.0.0.1 - - [18/Aug/2021 02:17:52] "[32mGET /restart HTTP/1.0[0m" 302 -
+127.0.0.1 - - [18/Aug/2021 02:17:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:17:53] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:17:53] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:20:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:20:15] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:20:15] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 02:20:21] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:20:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 02:20:39] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 02:20:51] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+Traceback (most recent call last):
+  File "server.py", line 1, in <module>
+    from flask import Flask, render_template, request, redirect, jsonify, send_from_directory, url_for
+ModuleNotFoundError: No module named 'flask'
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 03:19:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:19:59] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:19:59] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:20:03] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:06] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:06] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:23] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:26] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:33] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:20:42] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: sp2
+127.0.0.1 - - [18/Aug/2021 03:20:55] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: No match found for input: singular or plural 2
+127.0.0.1 - - [18/Aug/2021 03:20:58] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: No match found for input: singular
+127.0.0.1 - - [18/Aug/2021 03:21:02] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: No match found for input: idk
+127.0.0.1 - - [18/Aug/2021 03:21:04] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 03:23:38] "[32mGET /restart HTTP/1.0[0m" 302 -
+127.0.0.1 - - [18/Aug/2021 03:23:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:23:38] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:23:38] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:24:14] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 03:24:14] "[33mGET /paginate/eyJ2ZXJzaW9uIjoyLCJ0b2tlbiI6IkFRSUNBSGphZllLbkpFamdtekR1bW9yamVDd2ZqQVFCU1pkSkp4NEgyYWtGRGxZcEl3SCs1QnBxRjVTVFlOVnUzTDdwOG93M0FBQUNIRENDQWhnR0NTcUdTSWIzRFFFSEJxQ0NBZ2t3Z2dJRkFnRUFNSUlCL2dZSktvWklodmNOQVFjQk1CNEdDV0NHU0FGbEF3UUJMakFSQkF3cHc3VllzbGtQS3I2L3JURUNBUkNBZ2dIUFYvTjArSkd1dGtKeXdJSFlncmVYaWVmR3hCWlpCd0VUT2I5elVvZjhVMDJOMFVBSHNHem9ya0k0cmJHQ2hwajhOcmJ0cmx0dlZXeXhFdTI5YTNMaUZ1V2J1NjA4c0xjWnRtaDBJUWpUdGRHOUJPTHhFRUdzeFNMZThtWjNHUkRZQW9nRTI3RmFzb1JkakF1MUQvNDNONWx3dG1ubThBSW9JTWVkMllyNjluNGdZSmJqd0ZkdTJ5amRzU053NTAvaG5ZK2g3eXl3aTlCVmEyZFU3NDJDWWp6ZGREYU5lSlhFSlMzRFN2YUFMcEJ3bVpBT2hibWZoOHBRMFgyTCtZSjVtSUVpaDRZeEpWcCt4U2xxV3FEV0t3Ykp4Q0ZLNFNVdDBOZzlXMlk1QTVjZXhEUFhMNTZVZy8xS3JOb0xLZFd6NzF3dDBOaW9OR3VEa0EwYmYzMW9JWitzenF4Ynl0ckNiWWJVWkU4ZmtydXE0alpxVHlYa2hRTmJuSURMSDNsYmc1cDZTbmh4VUtaaWZqZkRSMUpDdkR5UWNINVdacGp4M2xvZ2s1ODhVWTQ2VGFnemJ5eU5GUmw3U3BBbkRiMFNTc2V6NTFQTHA2dENacEtOc29YT0RrSTVhdSt4L0lRVWE0ZThMTEMwWFNBUGVFbC84WE44WHRRY29XY3ZKNXByV3lqaEpHSnZwT0VJQm96eUJCNjNFQ2hSTllpT0xmUUhHbXBtZHlqMEVieFU3RS84a1U0Njh5MWd4UTFLQWtxcFIzM3RtcnNjY20wanNwNjYvZGpnZlBWbldkbUowTE94R0QwL1JEWkFSQT09In0= HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 03:24:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:25:03] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:25:03] "GET /wordcloud.png HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 03:26:51] "POST /ask HTTP/1.0" 200 -
+Loading ./aiml/additional/student/student.aiml...done (0.01 seconds)
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.00 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.15 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.13 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.11 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.31 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.32 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.35 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.37 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.13 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.53 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.30 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.26 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/religion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/salutations.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/science.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/sex.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/sports.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stack.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stories.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/that.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/update.aiml...done (0.10 seconds)
+Loading ./aiml/additional/alice/wallace.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/xfind.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.60 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.29 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.19 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/religion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/salutations.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/science.aiml...done (0.00 seconds)PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 03:26:55] "POST /ask HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 03:26:59] "POST /ask HTTP/1.0" 200 -
+
+Loading ./aiml/additional/alice/sex.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/sports.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stack.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stories.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/that.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/update.aiml...done (0.10 seconds)
+Loading ./aiml/additional/alice/wallace.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/xfind.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.46 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.36 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.30 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.05 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...done (0.07 seconds)
+Loading ./aiml/additional/alice/religion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/salutations.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/science.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/sex.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/sports.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stack.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/stories.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/that.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/update.aiml...done (0.10 seconds)
+Loading ./aiml/additional/alice/wallace.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/xfind.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/ai.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/alice.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/astrology.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/atomic.aiml...done (0.37 seconds)
+Loading ./aiml/additional/alice/badanswer.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/biography.aiml...done (0.02 seconds)
+Loading ./aiml/additional/alice/bot.aiml...done (0.13 seconds)
+Loading ./aiml/additional/alice/bot_profile.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/client.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/client_profile.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/computers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/continuation.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/custom.html...Loading ./aiml/additional/alice/date.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/default.aiml...done (0.21 seconds)
+Loading ./aiml/additional/alice/drugs.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/emotion.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/food.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/geography.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/gossip.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/history.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/humor.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/imponderables.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/inquiry.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/interjection.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/iu.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/knowledge.aiml...done (0.06 seconds)
+Loading ./aiml/additional/alice/literature.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/loebner10.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/money.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/movies.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/mp0.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp1.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp2.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp3.aiml...done (0.22 seconds)
+Loading ./aiml/additional/alice/mp4.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp5.aiml...done (0.23 seconds)
+Loading ./aiml/additional/alice/mp6.aiml...done (0.12 seconds)
+Loading ./aiml/additional/alice/music.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/numbers.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/order...Loading ./aiml/additional/alice/personality.aiml...done (0.01 seconds)
+Loading ./aiml/additional/alice/pickup.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/politics.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/primeminister.aiml...done (0.00 seconds)
+Loading ./aiml/additional/alice/psychology.aiml...done (0.03 seconds)
+Loading ./aiml/additional/alice/reduction0.safe.aiml...done (0.36 seconds)
+Loading ./aiml/additional/alice/reduction1.safe.aiml...done (0.30 seconds)
+Loading ./aiml/additional/alice/reduction2.safe.aiml...done (0.46 seconds)
+Loading ./aiml/additional/alice/reduction3.safe.aiml...done (0.20 seconds)
+Loading ./aiml/additional/alice/reduction4.safe.aiml...done (0.04 seconds)
+Loading ./aiml/additional/alice/reductions-update.aiml...PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 03:27:03] "POST /ask HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 03:27:07] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:29:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:29:33] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:29:33] "[36mGET /style.css HTTP/1.0[0m" 304 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 03:34:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:37] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:37] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:40] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
