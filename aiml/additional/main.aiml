@@ -97,7 +97,7 @@
 		<template>
 		Lets talk to Eliza. Eliza is a medical professional!
 		<think>
-		<learn>./aiml/additional/alice/*</learn>
+		<learn>./aiml/additional/eliza/*</learn>
 		</think>
 		</template>
 	</category>
@@ -106,7 +106,7 @@
 		<template>
 		Lets talk to Rosie.  Rosie is soooo smart
 		<think>
-		<learn>./aiml/additional/alice/*</learn>
+		<learn>./aiml/additional/rosie/*</learn>
 		</think>
 		</template>
 	</category>
