@@ -77,7 +77,7 @@
                 objDiv.scrollTop = objDiv.scrollHeight;
                 $.ajax({
                     type: "POST",
-                    url: "/ask",
+                    url: "/voice",
                     data: $(this).serialize(),
                     success: function(response) {
                         $('#messageText').val('');

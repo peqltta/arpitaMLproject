@@ -64,6 +64,7 @@ def jarvis(data):
 def voice():
 	global allcommands
 	data = request.data.decode()
+	print(data)
 	if data != '':
 		try:
 			allcommands = allcommands+' '+data
@@ -96,25 +97,20 @@ def wordcloud():
 @app.route("/ask", methods=['POST'])
 def ask():
 	global allcommands
-	message = str(request.form['messageText'])
-	try:
-		allcommands += allcommands + ' ' + message
-	except:
-		pass
-# kernel now ready for use
-	if message != '':
-		if message == "quit":
-			exit()
-		elif message == "save":
-			kernel.saveBrain("bot_brain.brn")
-		else:
-			bot_response = kernel.respond(message)
-			# print bot_response
-			if bot_response != '':
-				return jsonify({'status':'OK','answer':bot_response})
-			else:
-				return ('', 204)
-
+	data = str(request.form['messageText'])
+	print(data)
+	if data != '':
+		try:
+			allcommands = allcommands+' '+data
+		except:
+			pass
+		sentiment = str(sid.polarity_scores(data))
+		ansresponse = kernel.respond(data)
+		if ansresponse != '':
+			answer = ansresponse + '#' + sentiment
+			return answer #jsonify({'status':'OK','answer':jarvis(da
+		else
+ 
 if __name__ == "__main__":
 	app.run()
 	app.run(host='192.168.0.11', port=5000)

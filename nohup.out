@@ -899,3 +899,1188 @@ Saving brain to bot_brain.brn...done (0.00 seconds)
 127.0.0.1 - - [18/Aug/2021 03:34:41] "GET / HTTP/1.0" 200 -
 127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /script.js HTTP/1.0[0m" 304 -
 127.0.0.1 - - [18/Aug/2021 03:34:41] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:39:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:41:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:41:28] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:41:28] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 03:41:32] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 03:41:33] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 04:23:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 04:23:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 04:23:31] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 06:05:00] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 06:55:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 06:55:11] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 06:55:11] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 07:01:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 07:24:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 07:24:13] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 07:24:13] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 07:24:15] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 07:24:24] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 07:24:24] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 07:24:34] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 07:24:38] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: My name is Wizard
+127.0.0.1 - - [18/Aug/2021 07:24:56] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 07:58:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:00:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:00:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:00:35] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:04:10] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 08:14:32] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 08:14:33] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 08:14:33] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 08:14:41] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:14:49] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:31:03] "[31m[1mPOST /GponForm/diag_Form?style/ HTTP/1.0[0m" 405 -
+127.0.0.1 - - [18/Aug/2021 08:35:36] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 08:35:36] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 08:35:36] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 08:50:24] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:50:35] "GET /script.js HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:50:35] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 08:54:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 09:31:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 09:38:53] "[31m[1mPOST /api/jsonws/invoke HTTP/1.0[0m" 405 -
+127.0.0.1 - - [18/Aug/2021 09:38:53] "[31m[1mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 405 -
+127.0.0.1 - - [18/Aug/2021 09:38:54] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 09:38:55] "[33mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 09:38:55] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 09:38:55] "[31m[1mPOST /mifs/.;/services/LogService HTTP/1.0[0m" 405 -
+127.0.0.1 - - [18/Aug/2021 09:38:57] "[33mGET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 09:38:57] "[33mGET /console/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 09:38:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 09:38:58] "[33mGET /_ignition/execute-solution HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 09:38:59] "[31m[1mPOST /Autodiscover/Autodiscover.xml HTTP/1.0[0m" 405 -
+127.0.0.1 - - [18/Aug/2021 10:10:01] "[33mGET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 11:02:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:40] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:02:40] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:02:43] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:45] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:48] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:52] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:54] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:02:56] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:16:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:16:44] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:16:44] "GET /script.js HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:16:45] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+WARNING: No match found for input: really
+[2021-08-18 11:16:47,829] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:16:47] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: new model number
+[2021-08-18 11:16:51,914] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:16:51] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: rugby league latest news
+[2021-08-18 11:16:57,019] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:16:57] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: shawarma shawarma shawarma soup
+[2021-08-18 11:17:10,830] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:10] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: broadband everywhere
+[2021-08-18 11:17:17,253] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:17] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: hello Versace TV
+[2021-08-18 11:17:21,585] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:21] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: designing
+[2021-08-18 11:17:23,935] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:23] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: I'm coming to Lagos so that the father does not have
+[2021-08-18 11:17:32,819] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:32] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 11:17:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:17:44] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:17:44] "[36mGET /style.css HTTP/1.0[0m" 304 -
+WARNING: No match found for input: uwc
+[2021-08-18 11:17:59,515] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:17:59] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: America
+[2021-08-18 11:18:19,849] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:18:19] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: artificial intelligence
+[2021-08-18 11:18:25,487] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:18:25] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: I don't know
+[2021-08-18 11:19:18,073] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:19:18] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: mobile
+[2021-08-18 11:19:20,753] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:19:20] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: the name of the minister on the Bayou
+[2021-08-18 11:19:38,894] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:19:38] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 11:20:02] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:20:07] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: where will I go
+[2021-08-18 11:20:09,593] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:20:09] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: Nigeria Bollywood
+[2021-08-18 11:20:27,415] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:20:27] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: albino
+[2021-08-18 11:22:20,143] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:22:20] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: Ryan Seacrest
+[2021-08-18 11:22:32,847] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:22:32] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 11:23:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:23:36] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:23:36] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:23:37] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+WARNING: No match found for input: list of time may 4 of the
+[2021-08-18 11:24:38,210] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 11:24:38] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 11:28:39] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:28:39] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:30:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:30:47] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:30:47] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:30:53] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:30:55] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:30:58] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:01] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:05] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:09] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: my
+127.0.0.1 - - [18/Aug/2021 11:31:15] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 11:31:18] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:19] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:20] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:20] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:21] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: q6q7
+127.0.0.1 - - [18/Aug/2021 11:31:21] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 11:31:22] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:31:24] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: q9
+127.0.0.1 - - [18/Aug/2021 11:31:24] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+[2021-08-18 11:54:34,429] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 75, in voice
+    answer = anresponse + '#' + sentiment
+NameError: name 'anresponse' is not defined
+127.0.0.1 - - [18/Aug/2021 11:54:34] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 11:54:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:54:52] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:54:53] "[36mGET /script.js HTTP/1.0[0m" 304 -
+[2021-08-18 11:55:01,064] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 75, in voice
+    answer = anresponse + '#' + sentiment
+NameError: name 'anresponse' is not defined
+127.0.0.1 - - [18/Aug/2021 11:55:01] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 11:59:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 11:59:32] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:59:32] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 11:59:34] "POST /voice HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:11:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:20:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:20:52] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 12:20:52] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 12:30:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:30:02] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 12:30:02] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 12:30:02] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 12:30:35] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:30:41] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: My name is Arpita
+127.0.0.1 - - [18/Aug/2021 12:30:52] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: No match found for input: Lesson plans
+127.0.0.1 - - [18/Aug/2021 12:31:04] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 12:31:35] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:31:35] "GET /wordcloud.png HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:04] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:09] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:18] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:26] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:48] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 12:51:57] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: No
+127.0.0.1 - - [18/Aug/2021 12:52:07] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: No match found for input: Next
+127.0.0.1 - - [18/Aug/2021 12:52:20] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 13:14:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:14:56] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:14:56] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:14:57] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 13:22:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:22:44] "GET /script.js HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:22:44] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:22:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:22:45] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:22:45] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:22:45] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 13:22:45] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 13:22:56] "POST /voice HTTP/1.0" 200 -
+[2021-08-18 13:22:57,199] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'ask' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:22:57] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+WARNING: No match found for input: tution teacher
+[2021-08-18 13:23:05,390] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:23:05] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: free job
+[2021-08-18 13:23:25,961] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:23:25] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: which one
+[2021-08-18 13:23:41,180] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:23:41] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 13:23:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:23:49] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:23:49] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:24:01] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:24:10] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:24:14] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:24:20] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:24:33] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 13:25:23] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:25:30] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: No
+127.0.0.1 - - [18/Aug/2021 13:25:47] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 13:28:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:28:53] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:28:53] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:28:55] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:13] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:15] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:55] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:55] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:29:57] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:29:58] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:34:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 13:34:22] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:34:22] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 13:34:24] "POST /ask HTTP/1.0" 200 -
+WARNING: No match found for input: YouTube
+[2021-08-18 13:34:24,567] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:34:24] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+WARNING: No match found for input: yeah sure
+[2021-08-18 13:34:26,401] ERROR in app: Exception on /voice [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'voice' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 13:34:26] "[35m[1mPOST /voice HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 13:35:03] "[33mGET /workcloud HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 13:35:07] "[33mGET /wordcloud HTTP/1.0[0m" 404 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 14:05:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:05:50] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:05:50] "[36mGET /style.css HTTP/1.0[0m" 304 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 14:06:05] "POST /ask HTTP/1.0" 200 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 14:06:08] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 14:06:10] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 14:06:12] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:06:16] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:06:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:06:34] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:06:37] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:07:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:07:09] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:07:09] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:18:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:18:26] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:18:26] "[36mGET /style.css HTTP/1.0[0m" 304 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 14:18:30] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 14:18:46] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+[2021-08-18 14:18:48,805] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'ask' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 14:18:48] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 14:18:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:18:50] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:18:50] "[36mGET /style.css HTTP/1.0[0m" 304 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 14:18:52] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 14:19:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:19:10] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:19:10] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 14:19:11] "POST /ask HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 14:19:19] "POST /ask HTTP/1.0" 200 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 14:19:45] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 14:19:58] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:20:02] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:20:07] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 14:20:12] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:06:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:06:46] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 15:06:46] "[36mGET /style.css HTTP/1.0[0m" 304 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 15:06:48] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 15:06:50] "POST /ask HTTP/1.0" 200 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 15:06:54] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 15:06:57] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:06:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:07:01] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:33:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 15:33:03] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 15:33:03] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 16:54:40] "[33mGET /owa/auth/x.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 17:03:54] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 17:29:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 17:58:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 17:58:07] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 17:58:07] "[36mGET /style.css HTTP/1.0[0m" 304 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 17:58:10] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+WARNING: maximum recursion depth exceeded (input='HI')127.0.0.1 - - [18/Aug/2021 17:58:13] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 17:58:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 17:58:14] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 17:58:14] "[36mGET /style.css HTTP/1.0[0m" 304 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 18:06:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:06:51] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 18:06:51] "GET /style.css HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 18:06:57] "POST /ask HTTP/1.0" 200 -
+[2021-08-18 18:07:04,272] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1699, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'ask' did not return a valid response. The function either returned None or ended without a return statement.
+127.0.0.1 - - [18/Aug/2021 18:07:04] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+127.0.0.1 - - [18/Aug/2021 18:07:17] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:23] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:27] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:32] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:37] "POST /ask HTTP/1.0" 200 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 18:07:46] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 18:07:46] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:49] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:52] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:07:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:00] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:01] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:05] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:09] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:11] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:13] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:18] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:22] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:26] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:08:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:26] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 18:13:26] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:26] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 18:13:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:33] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:36] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:39] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:42] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:46] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:50] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:51] "POST /ask HTTP/1.0" 200 -
+WARNING: maximum recursion depth exceeded (input='HELLO')127.0.0.1 - - [18/Aug/2021 18:13:53] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 18:13:54] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:56] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:13:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:00] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:05] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:09] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:12] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:16] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:17] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:19] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:21] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:24] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:29] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:14:31] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 18:35:48] "[33mGET /actuator/health HTTP/1.0[0m" 404 -
+127.0.0.1 - - [18/Aug/2021 19:24:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:24:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:41:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:53:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:53:51] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:53:51] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 19:53:51] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 19:54:37] "[32mGET /restart HTTP/1.0[0m" 302 -
+127.0.0.1 - - [18/Aug/2021 19:54:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:54:37] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 19:54:37] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 19:54:39] "POST /wordcloud HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:54:39] "GET /wordcloud.png HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 19:54:49] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:54:53] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:54:57] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:00] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:04] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:08] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:11] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:14] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:16] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:21] "[32mGET /restart HTTP/1.0[0m" 302 -
+127.0.0.1 - - [18/Aug/2021 19:55:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:21] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 19:55:21] "[36mGET /style.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 19:55:28] "POST /ask HTTP/1.0" 200 -
+
+FATAL PARSE ERROR in file ./aiml/standard/LICENSE:
+./aiml/standard/LICENSE:1:0: syntax error
+
+FATAL PARSE ERROR in file ./aiml/standard/README.md:
+./aiml/standard/README.md:1:1: not well-formed (invalid token)
+127.0.0.1 - - [18/Aug/2021 19:55:32] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:35] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:40] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:42] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:44] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:50] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:53] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:56] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:58] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:58] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:55:59] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 19:56:00] "POST /ask HTTP/1.0" 200 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 20:09:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:09:45] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:09:45] "[36mGET /script.js HTTP/1.0[0m" 304 -
+[2021-08-18 20:09:54,393] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:09:54] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:09:56,104] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:09:56] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 20:10:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:10:17] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 20:10:17] "GET /style.css HTTP/1.0" 200 -
+WARNING: No match found for input: hihey
+127.0.0.1 - - [18/Aug/2021 20:10:19] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+[2021-08-18 20:10:21,241] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:10:21] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:10:28,549] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:10:28] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+WARNING: No match found for input: heyhey
+127.0.0.1 - - [18/Aug/2021 20:10:29] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+[2021-08-18 20:10:30,655] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:10:30] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:10:33,432] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:10:33] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:10:36,190] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 114, in ask
+    return answer #jsonify({'status':'OK','answer':bot_response})
+NameError: name 'answer' is not defined
+127.0.0.1 - - [18/Aug/2021 20:10:36] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 20:12:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:19] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 20:12:19] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:19] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+WARNING: No match found for input: hihello
+127.0.0.1 - - [18/Aug/2021 20:12:20] "[35m[1mPOST /ask HTTP/1.0[0m" 204 -
+127.0.0.1 - - [18/Aug/2021 20:12:23] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:25] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:27] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:30] "POST /ask HTTP/1.0" 200 -
+PARSE ERROR: Unexpected text inside <random> element (line 2889, column 256)
+PARSE ERROR: Unexpected <category> tag (line 100, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 108, column 0)
+PARSE ERROR: Unexpected </li> tag (line 110, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 128, column 0)
+PARSE ERROR: Unexpected </template> tag (line 129, column 0)
+PARSE ERROR: Unexpected </category> tag (line 130, column 0)
+PARSE ERROR: Unexpected <category> tag (line 158, column 1)
+PARSE ERROR: Unexpected </learn> tag (line 166, column 0)
+PARSE ERROR: Unexpected </li> tag (line 168, column 0)
+PARSE ERROR: Unexpected </condition> tag (line 173, column 0)
+PARSE ERROR: Unexpected </template> tag (line 174, column 0)
+PARSE ERROR: Unexpected </category> tag (line 175, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 455, column 0)
+PARSE ERROR: <random> elements can only contain <li> subelements (line 878, column 537)
+PARSE ERROR: Unexpected </category> tag (line 70, column 0)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/custom.html:
+./aiml/additional/alice/custom.html:1:61: syntax error
+PARSE ERROR: Unexpected text inside <random> element (line 1636, column 403)
+PARSE ERROR: Unexpected text inside <random> element (line 3500, column 14)
+PARSE ERROR: Unexpected text inside <random> element (line 4037, column 223)
+
+FATAL PARSE ERROR in file ./aiml/additional/alice/order:
+./aiml/additional/alice/order:1:0: syntax error
+PARSE ERROR: Unexpected </category> tag (line 11514, column 0)
+127.0.0.1 - - [18/Aug/2021 20:12:36] "POST /ask HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:12:46] "POST /ask HTTP/1.0" 200 -
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Loading /home/ec2-user/arpitaMLproject/aiml/std-startup.xml...done (0.00 seconds)
+Loading aiml/additional/main.aiml...done (0.00 seconds)
+
+Kernel bootstrap completed in 0.01 seconds
+Saving brain to bot_brain.brn...done (0.00 seconds)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[nltk_data] Downloading package punkt to /home/ec2-user/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/ec2-user/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [18/Aug/2021 20:16:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:16:10] "[36mGET /script.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [18/Aug/2021 20:16:10] "GET /style.css HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2021 20:16:10] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+[2021-08-18 20:16:11,676] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 108, in ask
+    sentiment = str(sid.polarity_scores(data))
+NameError: name 'data' is not defined
+127.0.0.1 - - [18/Aug/2021 20:16:11] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:16:14,472] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 108, in ask
+    sentiment = str(sid.polarity_scores(data))
+NameError: name 'data' is not defined
+127.0.0.1 - - [18/Aug/2021 20:16:14] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
+[2021-08-18 20:16:16,918] ERROR in app: Exception on /ask [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 108, in ask
+    sentiment = str(sid.polarity_scores(data))
+NameError: name 'data' is not defined
+127.0.0.1 - - [18/Aug/2021 20:16:16] "[35m[1mPOST /ask HTTP/1.0[0m" 500 -
